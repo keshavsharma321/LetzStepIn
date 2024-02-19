@@ -1,6 +1,6 @@
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 import { ICart } from "../lib/types/cart";
-import { IProduct } from "../lib/types/Products";
+import { IProduct } from "../lib/types/products";
 import { calculateDiscountPercentage } from "../utilities/calculateDiscountPercentage";
 
 const initialState: ICart = {

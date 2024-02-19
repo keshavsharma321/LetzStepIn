@@ -1,5 +1,5 @@
 import React from "react";
-import { IProduct } from "../../lib/types/Products";
+import { IProduct } from "../../lib/types/products";
 import Breadcrumb from "../UI/Breadcrumb";
 import ImageSection from "./ImageSection";
 import DetailsSection from "./DetailsSection";

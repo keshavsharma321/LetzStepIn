@@ -1,7 +1,7 @@
 import type { NextPage } from "next";
 import { GetStaticProps, GetStaticPaths } from "next";
 import { client } from "../../../../lib/client";
-import { IProduct } from "../../../../lib/types/Products";
+import { IProduct } from "../../../../lib/types/products";
 import ProductList from "../../../../components/productList/ProductList";
 import { ITitlePathsParams } from "../../../../lib/types/pagePathsParams";
 

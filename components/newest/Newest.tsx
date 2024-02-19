@@ -22,7 +22,7 @@ const Newest = () => {
 
       <div className="flex-col md:flex-row flex h-full">
         <div className=" w-full lg:w-2/3 justify-center flex">
-          <p className="text-xl md:text-3xl ml-4 md:ml-8 md:mr-16 ">At LetzStepIn, we prioritize user satisfaction by providing a multitude of benefits, discounts, and rewards with every offline and online purchase. Our commitment to enhancing your brand's virtual presence is exemplified through our cutting-edge 360° advanced interactive virtual tour, featuring remote access, 3D models, and live video calling capabilities. We will empower your brand's digital journey, making every interaction a seamless and rewarding experience for both businesses and users alike.
+          <p className="text-xl md:text-3xl ml-4 md:ml-8 md:mr-16 ">At LetzStepIn, we prioritize user satisfaction by providing a multitude of benefits, discounts, and rewards with every offline and online purchase. Our commitment to enhancing your brand&apos;s virtual presence is exemplified through our cutting-edge 360° advanced interactive virtual tour, featuring remote access, 3D models, and live video calling capabilities. We will empower your brand&apos;s digital journey, making every interaction a seamless and rewarding experience for both businesses and users alike.
           </p>
         </div>
         <div className=" ml-24 md:ml-0 w-1/2 -mb-16 md:mb-0 md:w-1/3 justify-center flex md:-mt-24">

@@ -7,7 +7,7 @@ import { useDispatch } from "react-redux";
 import { useLanguage } from "../../hooks/useLanguage";
 import { urlFor } from "../../lib/client";
 import { ICartRootState } from "../../lib/types/cart";
-import { IProduct } from "../../lib/types/Products";
+import { IProduct } from "../../lib/types/products";
 import { cartActions } from "../../store/cart-slice";
 import ProductPrice from "../UI/ProductPrice";
 

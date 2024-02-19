@@ -9,7 +9,7 @@ import { urlFor } from "../../lib/client";
 import ProductPrice from "../UI/ProductPrice";
 import { BsCartPlus } from "react-icons/bs";
 import { HiOutlineTrash } from "react-icons/hi";
-import { IProduct } from "../../lib/types/Products";
+import { IProduct } from "../../lib/types/products";
 
 interface Props {
   product: IProduct;

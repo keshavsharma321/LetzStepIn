@@ -1,6 +1,6 @@
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 import { IFavorite } from "../lib/types/favorite";
-import { IProduct } from "../lib/types/Products";
+import { IProduct } from "../lib/types/products";
 
 const initialState: IFavorite = {
   items: [],

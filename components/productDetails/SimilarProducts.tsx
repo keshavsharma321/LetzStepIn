@@ -1,5 +1,5 @@
 import React from "react";
-import { IProduct } from "../../lib/types/Products";
+import { IProduct } from "../../lib/types/products";
 import CarouselBox from "../UI/CarouselBox/CarouselBox";
 import CarouselBoxCard from "../UI/CarouselBox/CarouselBoxCard";
 

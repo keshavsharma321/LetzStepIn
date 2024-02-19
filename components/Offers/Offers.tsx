@@ -1,7 +1,7 @@
 import React from "react";
 import CarouselBox from "../UI/CarouselBox/CarouselBox";
 import { useSelector } from "react-redux";
-import { IProduct } from "../../lib/types/Products";
+import { IProduct } from "../../lib/types/products";
 import CarouselBoxCard from "../UI/CarouselBox/CarouselBoxCard";
 
 const Offers = () => {

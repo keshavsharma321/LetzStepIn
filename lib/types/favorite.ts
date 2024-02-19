@@ -1,4 +1,4 @@
-import { IProduct } from "./Products";
+import { IProduct } from "../../lib/types/products";
 export interface IFavorite {
   items: IProduct[];
 }

@@ -1,7 +1,7 @@
 import React from "react";
 import StarRatingComponent from "react-star-rating-component";
 import { useLanguage } from "../../hooks/useLanguage";
-import { IProduct } from "../../lib/types/Products";
+import { IProduct } from "../../lib/types/products";
 import CallToAction from "./CallToAction";
 
 interface Props {

@@ -1,7 +1,7 @@
 import React from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { favoriteActions } from "../../store/favorite-slice";
-import { IProduct } from "../../lib/types/Products";
+import { IProduct } from "../../lib/types/products";
 import { IFavoriteRootState } from "../../lib/types/favorite";
 import { RiHeartFill, RiHeartAddLine, RiShareLine } from "react-icons/ri";
 

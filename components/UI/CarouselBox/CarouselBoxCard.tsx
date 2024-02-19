@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import { urlFor } from "../../../lib/client";
-import { IProduct } from "../../../lib/types/Products";
+import { IProduct } from "../../../lib/types/products";
 import Link from "next/link";
 import ProductPrice from "../ProductPrice";
 

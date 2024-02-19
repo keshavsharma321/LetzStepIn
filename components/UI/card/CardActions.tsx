@@ -9,7 +9,7 @@ import {
   RiShareLine,
   RiShoppingCart2Line,
 } from "react-icons/ri";
-import { IProduct } from "../../../lib/types/Products";
+import { IProduct } from "../../../lib/types/products";
 import { IFavoriteRootState } from "../../../lib/types/favorite";
 
 import { toast } from "react-toastify";

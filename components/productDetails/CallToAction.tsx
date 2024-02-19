@@ -5,7 +5,7 @@ import { BsCartPlus } from "react-icons/bs";
 import { useLanguage } from "../../hooks/useLanguage";
 import { useDispatch } from "react-redux";
 import { cartActions } from "../../store/cart-slice";
-import { IProduct } from "../../lib/types/Products";
+import { IProduct } from "../../lib/types/products";
 import ProductPrice from "../UI/ProductPrice";
 import { toast } from "react-toastify";
 

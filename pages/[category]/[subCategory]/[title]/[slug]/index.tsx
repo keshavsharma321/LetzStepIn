@@ -3,7 +3,7 @@ import React from "react";
 import ProductDetails from "../../../../../components/productDetails";
 import { client } from "../../../../../lib/client";
 import { ISlugPathsParams } from "../../../../../lib/types/pagePathsParams";
-import { IProduct } from "../../../../../lib/types/Products";
+import { IProduct } from "../../../../../lib/types/products";
 
 const productDetailsPage: NextPage<{
   product: IProduct;

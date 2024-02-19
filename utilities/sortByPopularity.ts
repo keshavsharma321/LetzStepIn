@@ -1,4 +1,4 @@
-import { IProduct } from "../lib/types/Products";
+import { IProduct } from "../lib/types/products";
 
 export const sortByPoPularity = (
   product1: IProduct,

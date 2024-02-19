@@ -1,4 +1,4 @@
-import { IProduct } from "./products";
+import { IProduct } from "../../lib/types/products";
 
 export interface IProductList {
   ProductsList: IProduct[] | [];
