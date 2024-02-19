@@ -5,8 +5,8 @@ import SideNavSide from "./SideNavSide";
 const index = () => {
   return (
     <div className="md:hidden">
-      <SideBar />
-      <SideNavSide />
+      {/* <SideBar /> */}
+      {/* <SideNavSide /> */}
     </div>
   );
 };
