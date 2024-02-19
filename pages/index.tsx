@@ -11,9 +11,10 @@ const Home: NextPage = () => {
     <div>
       <Search />
       <div>
+        <Category />
         <Benefits />
         <Carousel />
-        <Category />
+
         <Newest />
       </div>
     </div>
