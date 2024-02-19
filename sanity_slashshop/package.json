@@ -30,6 +30,10 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "https://github.com/Amad3eu/slashshop.git"
-  }
+    "url": "git+https://github.com/Amad3eu/LetzStepIn.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Amad3eu/LetzStepIn/issues"
+  },
+  "homepage": "https://github.com/Amad3eu/LetzStepIn#readme"
 }

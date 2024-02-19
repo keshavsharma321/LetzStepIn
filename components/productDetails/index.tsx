@@ -1,5 +1,5 @@
 import React from "react";
-import { IProduct } from "../../lib/types/products";
+import { IProduct } from "../../lib/types/Products";
 import Breadcrumb from "../UI/Breadcrumb";
 import ImageSection from "./ImageSection";
 import DetailsSection from "./DetailsSection";
@@ -8,10 +8,10 @@ import SimilarProducts from "./SimilarProducts";
 
 interface Props {
   product: IProduct;
-  products: IProduct[];
+  Products: IProduct[];
 }
-const ProductDetails: React.FC<Props> = ({ product, products }) => {
-  const similarProductsList = products
+const ProductDetails: React.FC<Props> = ({ product, Products }) => {
+  const similarProductsList = Products
     .filter(
       (similarProduct) => similarProduct.slug.current !== product.slug.current
     )
@@ -28,7 +28,7 @@ const ProductDetails: React.FC<Props> = ({ product, products }) => {
         <div className="border-2 my-8">
           <Benefits />
         </div>
-        <SimilarProducts products={similarProductsList} />
+        <SimilarProducts Products={similarProductsList} />
       </div>
     </div>
   );

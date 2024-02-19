@@ -1,4 +1,4 @@
-import { IProduct } from "../lib/types/products";
+import { IProduct } from "../lib/types/Products";
 
 export function getTimeStamp(date: string) {
   const creationProductDate = new Date(date);
@@ -15,12 +15,12 @@ export const sortByTimeStamp = (
   return 0;
 };
 
-export const newestProductsFn = (products: IProduct[]) => {
-  const productsWithTimeStamp = products.map((product) => {
+export const newestProductsFn = (Products: IProduct[]) => {
+  const ProductsWithTimeStamp = Products.map((product) => {
     return {
       ...product,
       timeStamp: getTimeStamp(product.registerDate!),
     };
   });
-  return productsWithTimeStamp.sort(sortByTimeStamp);
+  return ProductsWithTimeStamp.sort(sortByTimeStamp);
 };

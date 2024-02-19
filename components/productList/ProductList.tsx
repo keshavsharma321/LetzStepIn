@@ -25,14 +25,14 @@ const ProductList: React.FC<Props> = ({ productList }) => {
   useEffect(() => {
     dispatch(
       SortedProductsListActions.sortProductsList({
-        productsList: productList,
+        ProductsList: productList,
         sortBasedOn: selectedRadioBtn,
       })
     );
   }, [dispatch, productList, selectedRadioBtn]);
 
   const sortedProductList = useSelector(
-    (state: IProductListRootState) => state.sortedProductsList.productsList
+    (state: IProductListRootState) => state.sortedProductsList.ProductsList
   );
 
   function onChangeHandler(e: React.ChangeEvent<HTMLInputElement>) {
@@ -48,8 +48,8 @@ const ProductList: React.FC<Props> = ({ productList }) => {
           <div className="grid gap-4 md:gap-2 grid-cols-6 md:grid-cols-12">
             {productList
               ? productList.map((product: IProduct) => {
-                  return <Card key={product.slug.current} product={product} />;
-                })
+                return <Card key={product.slug.current} product={product} />;
+              })
               : null}
           </div>
         ) : sortedProductList && sortedProductList.length ? (

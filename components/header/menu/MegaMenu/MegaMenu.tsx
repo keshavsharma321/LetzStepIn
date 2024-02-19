@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { megaMenuActions } from "../../../../store/megaMenu-slice";
 import { Transition } from "react-transition-group";
 import { useLanguage } from "../../../../hooks/useLanguage";
-import { GoGrabber } from "react-icons/go";
+import { GoGrabber, GoHeart, GoWatch } from "react-icons/go";
 import MenusContainer from "./MenusContainer";
 import { IMegaMenuRootState } from "../../../../lib/types/megaMenu";
 
@@ -27,9 +27,9 @@ const MegaMenu = () => {
       onMouseOver={showMegaMenuHandler}
       onMouseOut={closeMegaMenuHandler}
     >
-      <div className="flex items-center font-bold cursor-pointer">
-        <GoGrabber style={{ fontSize: "2rem" }} />
-        <h3 className="ltr:ml-1 rtl:mr-1">{t.CategoryOfGoods}</h3>
+      <div className="flex items-center font-bold cursor-pointer ">
+        <GoHeart style={{ fontSize: "1.5rem" }} />
+        <h3 className="ltr:ml-1 rtl:mr-1 text-lg font-serif ml-2">{t.CategoryOfProducts1}</h3>
       </div>
 
       <Transition
@@ -41,23 +41,8 @@ const MegaMenu = () => {
       >
         {(state) => {
           return (
-            <div ref={nodeRef} className="z-[100]">
-              <div
-                className={`fixed top-[8.2rem] inset-0 bg-gray-600/60
-                ${
-                  state === "entering"
-                    ? "animate-fadeEntering"
-                    : state === "entered"
-                    ? "opacity-100"
-                    : "animate-fadeExit"
-                }
-                `}
-                onClick={closeMegaMenuHandler}
-              ></div>
-              <div className="absolute top-full left-0 right-0 bg-palette-card z-[110] shadow-md rounded-br-lg rounded-bl-lg">
-                <MenusContainer />
-              </div>
-            </div>
+
+            <></>
           );
         }}
       </Transition>

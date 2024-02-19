@@ -32,11 +32,10 @@ const ImageSection: React.FC<Props> = ({ imgArray, product }) => {
             return (
               <div
                 key={imgItem._key}
-                className={`flex items-center justify-center p-2 md:p-4 rounded-lg  border-none transition-all duration-300 ease-in-out min-w-[80px] ${
-                  index === selectedImg
+                className={`flex items-center justify-center p-2 md:p-4 rounded-lg  border-none transition-all duration-300 ease-in-out min-w-[80px] ${index === selectedImg
                     ? "border-2 border-slate-300/60 shadow-md bg-palette-card/60"
                     : ""
-                }`}
+                  }`}
                 onClick={() => onClickHandler(index)}
               >
                 <Image

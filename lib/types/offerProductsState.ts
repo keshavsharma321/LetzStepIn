@@ -1,4 +1,4 @@
-import { IProduct } from "./products";
+import { IProduct } from "./Products";
 
 export interface IOfferProducts {
   specialOfferProducts: IProduct[] | [];

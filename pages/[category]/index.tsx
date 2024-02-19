@@ -6,11 +6,11 @@ import ProductList from "../../components/productList/ProductList";
 import { ICategoryPathsParams } from "../../lib/types/pagePathsParams";
 
 const categoryPage: NextPage<{
-  products: IProduct[];
-}> = ({ products }) => {
+  Products: IProduct[];
+}> = ({ Products }) => {
   return (
     <div>
-      <ProductList productList={products} />
+      <ProductList productList={Products} />
     </div>
   );
 };
@@ -21,8 +21,8 @@ export const getStaticPaths: GetStaticPaths = async () => {
   const query = `*[_type=="product"]{
     "category":category[0]
   }`;
-  const products = await client.fetch(query);
-  const paths = products.map((product: ICategoryPathsParams) => ({
+  const Products = await client.fetch(query);
+  const paths = Products.map((product: ICategoryPathsParams) => ({
     params: {
       category: product.category,
     },
@@ -36,11 +36,11 @@ export const getStaticPaths: GetStaticPaths = async () => {
 export const getStaticProps: GetStaticProps = async (context) => {
   const category = context.params?.category;
   const productQuery = `*[_type=='product'&& category[0]=="${category}"]`;
-  const products = await client.fetch(productQuery);
+  const Products = await client.fetch(productQuery);
 
   return {
     props: {
-      products: products,
+      Products: Products,
     },
   };
 };

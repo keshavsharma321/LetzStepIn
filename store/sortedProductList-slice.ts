@@ -1,13 +1,13 @@
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 
 import { IProductList } from "../lib/types/productList";
-import { IProduct } from "../lib/types/products";
+import { IProduct } from "../lib/types/Products";
 import { sortByPoPularity } from "../utilities/sortByPopularity";
 import { sortByCheapest, sortByExpensive } from "../utilities/sortByCost";
 import { newestProductsFn } from "../utilities/sortByTimeStamp";
 
 const initialState: IProductList = {
-  productsList: [],
+  ProductsList: [],
 };
 
 const SortedProductsListSlice = createSlice({
@@ -16,26 +16,26 @@ const SortedProductsListSlice = createSlice({
   reducers: {
     sortProductsList(
       state,
-      action: PayloadAction<{ productsList: IProduct[]; sortBasedOn: string }>
+      action: PayloadAction<{ ProductsList: IProduct[]; sortBasedOn: string }>
     ) {
       switch (action.payload.sortBasedOn) {
         case "all":
-          state.productsList = action.payload.productsList;
+          state.ProductsList = action.payload.ProductsList;
           break;
         case "newestProducts": {
-          state.productsList = newestProductsFn(state.productsList);
+          state.ProductsList = newestProductsFn(state.ProductsList);
           break;
         }
         case "popular": {
-          state.productsList = state.productsList.sort(sortByPoPularity);
+          state.ProductsList = state.ProductsList.sort(sortByPoPularity);
           break;
         }
         case "cheapest": {
-          state.productsList = state.productsList.sort(sortByCheapest);
+          state.ProductsList = state.ProductsList.sort(sortByCheapest);
           break;
         }
         case "expensive": {
-          state.productsList = state.productsList.sort(sortByExpensive);
+          state.ProductsList = state.ProductsList.sort(sortByExpensive);
           break;
         }
       }

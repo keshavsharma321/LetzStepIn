@@ -1,6 +1,6 @@
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 import { IFavorite } from "../lib/types/favorite";
-import { IProduct } from "../lib/types/products";
+import { IProduct } from "../lib/types/Products";
 
 const initialState: IFavorite = {
   items: [],
@@ -16,9 +16,9 @@ const favoriteSlice = createSlice({
       });
     },
     removeFromFavorite(state, action: PayloadAction<string>) {
-      const productSlug = action.payload;
+      const Productslug = action.payload;
       state.items = state.items.filter(
-        (item) => item.slug.current !== productSlug
+        (item) => item.slug.current !== Productslug
       );
     },
     clearCart(state) {

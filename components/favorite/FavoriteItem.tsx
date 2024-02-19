@@ -9,7 +9,7 @@ import { urlFor } from "../../lib/client";
 import ProductPrice from "../UI/ProductPrice";
 import { BsCartPlus } from "react-icons/bs";
 import { HiOutlineTrash } from "react-icons/hi";
-import { IProduct } from "../../lib/types/products";
+import { IProduct } from "../../lib/types/Products";
 
 interface Props {
   product: IProduct;
@@ -18,8 +18,8 @@ const FavoriteItem: React.FC<Props> = ({ product }) => {
   const { t } = useLanguage();
   const dispatch = useDispatch();
 
-  function onRemoveFavoriteItem(productSlug: string) {
-    dispatch(favoriteActions.removeFromFavorite(productSlug));
+  function onRemoveFavoriteItem(Productslug: string) {
+    dispatch(favoriteActions.removeFromFavorite(Productslug));
   }
 
   function onAddToCart(product: IProduct) {

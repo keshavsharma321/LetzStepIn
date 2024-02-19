@@ -19,7 +19,7 @@ const MenusContainer = () => {
   }
 
   useEffect(() => {
-    setSubMenuItems(menuItems[0].productsGroup);
+    setSubMenuItems(menuItems[0].ProductsGroup);
     return () => {
       dispatch(activeMenuItemActions.setActiveMenuItemIndex(0));
       dispatch(activeMenuItemActions.setActiveMenuItemText("digital"));

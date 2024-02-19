@@ -34,4 +34,11 @@ export const sliderContent = [
     bgImg: "url('/images/slider-img/beauty-banner.jpg')",
     url: "/",
   },
+  {
+    ID: 7,
+    title: "educationBT",
+    description: "educationBD",
+    bgImg: "url('/images/slider-img/education-banner.jpg')",
+    url: "/",
+  },
 ];

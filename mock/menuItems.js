@@ -14,7 +14,7 @@ const menuItems = [
   {
     category: "digital",
     icon: BsLaptop,
-    productsGroup: [
+    ProductsGroup: [
       {
         title: "laptop",
         icon: BsLaptop,
@@ -58,7 +58,7 @@ const menuItems = [
   {
     category: "fashion",
     icon: IoShirtOutline,
-    productsGroup: [
+    ProductsGroup: [
       {
         title: "women",
         icon: GiLargeDress,
@@ -94,6 +94,5 @@ const menuItems = [
 export default menuItems;
 
 export const extraMenu = [
-  { title: "offer", icon: AiOutlinePercentage, href: "/offers" },
-  { title: "bestSells", icon: RiFireLine, href: "/" },
+  // { title: "bestSells", icon: RiFireLine, href: "/" },
 ];

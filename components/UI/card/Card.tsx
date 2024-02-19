@@ -28,16 +28,6 @@ const Card: React.FC<Props> = ({ product }) => {
                 className=" drop-shadow-xl object-contain hover:scale-110 transition-transform duration-300 ease-in-out !py-2 "
               />
             </div>
-            {product?.discount ? (
-              <span className="w-8 sm:w-auto block absolute -top-2 -right-2">
-                <Image
-                  src="/images/discount-icon/discount.png"
-                  width={40}
-                  height={40}
-                  alt="discount-icon"
-                />
-              </span>
-            ) : null}
           </div>
           <div className="flex flex-col justify-between  flex-grow  w-1/2 md:w-full  px-1 md:px-3 py-2 md:py-4">
             <div className="flex justify-center md:justify-start flex-col  flex-grow overflow-hidden">

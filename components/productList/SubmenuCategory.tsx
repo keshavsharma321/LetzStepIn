@@ -13,7 +13,7 @@ const SubmenuCategory = () => {
   const selectedCategory = menuItems.filter(
     (item) => item.category === category
   );
-  const subCategories = selectedCategory[0]?.productsGroup?.map((item) => ({
+  const subCategories = selectedCategory[0]?.ProductsGroup?.map((item) => ({
     title: item.title,
     icon: item.icon,
   }));

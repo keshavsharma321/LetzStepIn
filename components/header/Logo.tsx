@@ -8,9 +8,9 @@ const Logo = () => {
       <a className="block md:flex items-center justify-center w-full flex-grow md:flex-grow-0">
         <Image
           src="/images/logo.png"
-          alt="zishop-logo"
+          alt="SlaShop-logo"
           width={120}
-          height={25}
+          height={80}
           objectFit="contain"
           className="cursor-pointer md:ltr:-mr-3"
         />

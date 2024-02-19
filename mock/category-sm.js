@@ -1,14 +1,38 @@
 export const categorySmContent = [
   {
     bgc: "digitalCategory",
-    imgSrc: "digital-category.png",
+    imgSrc: "Cafe1.png",
     categoryTitle: "digitalCategoryTitle",
-    href: "/digital",
+    href: "/CafesAndRestaurants",
   },
   {
     bgc: "fashionCategory",
-    imgSrc: "fashion-category.png",
+    imgSrc: "RealEstate.png",
     categoryTitle: "fashionCategoryTitle",
-    href: "/fashion",
+    href: "/RealEstate",
+  },
+  {
+    bgc: "fashionCategory",
+    imgSrc: "house-category.png",
+    categoryTitle: "homeCategoryTitle",
+    href: "/home",
+  },
+  {
+    bgc: "fashionCategory",
+    imgSrc: "Marriage1.jpg",
+    categoryTitle: "houseCategoryTitle1",
+    href: "/house",
+  },
+  {
+    bgc: "fashionCategory",
+    imgSrc: "Pubs.png",
+    categoryTitle: "toyCategoryTitle",
+    href: "/Pubs",
+  },
+  {
+    bgc: "fashionCategory",
+    imgSrc: "digital-category.png",
+    categoryTitle: "stationeryCategoryTitle",
+    href: "/education",
   },
 ];

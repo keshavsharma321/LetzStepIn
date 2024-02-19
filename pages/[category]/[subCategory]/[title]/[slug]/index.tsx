@@ -3,15 +3,15 @@ import React from "react";
 import ProductDetails from "../../../../../components/productDetails";
 import { client } from "../../../../../lib/client";
 import { ISlugPathsParams } from "../../../../../lib/types/pagePathsParams";
-import { IProduct } from "../../../../../lib/types/products";
+import { IProduct } from "../../../../../lib/types/Products";
 
 const productDetailsPage: NextPage<{
   product: IProduct;
-  products: IProduct[];
-}> = ({ product, products }) => {
+  Products: IProduct[];
+}> = ({ product, Products }) => {
   return (
     <div>
-      <ProductDetails product={product} products={products} />
+      <ProductDetails product={product} Products={Products} />
     </div>
   );
 };
@@ -25,8 +25,8 @@ export const getStaticPaths: GetStaticPaths = async () => {
     "subCategory":category[1],
     "title":category[2],
   }`;
-  const products = await client.fetch(query);
-  const paths = products.map((product: ISlugPathsParams) => ({
+  const Products = await client.fetch(query);
+  const paths = Products.map((product: ISlugPathsParams) => ({
     params: {
       slug: product.slug.current,
       category: product.category,
@@ -45,15 +45,15 @@ export const getStaticProps: GetStaticProps = async (context) => {
   const category = context.params?.category;
   const subCategory = context.params?.subCategory;
   const productQuery = `*[_type=='product' && slug.current=="${slug}"][0]`;
-  const productsQuery = `*[_type=='product' && category[0]=="${category}" && category[1]=="${subCategory}"]`;
+  const ProductsQuery = `*[_type=='product' && category[0]=="${category}" && category[1]=="${subCategory}"]`;
 
   const product = await client.fetch(productQuery);
-  const products = await client.fetch(productsQuery);
+  const Products = await client.fetch(ProductsQuery);
 
   return {
     props: {
       product,
-      products,
+      Products,
     },
   };
 };

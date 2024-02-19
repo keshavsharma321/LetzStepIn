@@ -1,7 +1,7 @@
 import { IProduct } from "./products";
 
 export interface IProductList {
-  productsList: IProduct[] | [];
+  ProductsList: IProduct[] | [];
 }
 
 export interface IProductListRootState {

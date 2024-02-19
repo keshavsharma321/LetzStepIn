@@ -23,7 +23,7 @@ const Footer = () => {
             fontSize: "1.3rem",
           }}
         />
-        {locale === "en" ? "by Luiz Amadeu" : " Luiz Amadeu"}
+        {locale === "en" ? "by Keshav Sharma" : " Keshav Sharma"}
       </div>
     </footer>
   );

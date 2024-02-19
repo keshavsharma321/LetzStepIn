@@ -6,7 +6,7 @@ import { benefitContent } from "../../mock/benefits";
 const Benefits = () => {
   const { t } = useLanguage();
   return (
-    <div className="flex items-center flex-wrap justify-evenly pt-4 my-4 w-full xl:max-w-[2100px] mx-auto">
+    <div className="flex items-center flex-wrap justify-evenly pt-4 my-4 mt-16 mb-16 w-full xl:max-w-[2100px] mx-auto">
       {benefitContent.map((benefitItem) => {
         return (
           <div
@@ -14,8 +14,8 @@ const Benefits = () => {
             key={benefitItem.title}
           >
             <Image
-              height={48}
-              width={48}
+              height={98}
+              width={98}
               src={benefitItem.imgSrc}
               alt={benefitItem.title}
               className=""

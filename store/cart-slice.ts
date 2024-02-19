@@ -1,6 +1,6 @@
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 import { ICart } from "../lib/types/cart";
-import { IProduct } from "../lib/types/products";
+import { IProduct } from "../lib/types/Products";
 import { calculateDiscountPercentage } from "../utilities/calculateDiscountPercentage";
 
 const initialState: ICart = {
@@ -65,9 +65,9 @@ const cartSlice = createSlice({
       state: ICart,
       action: PayloadAction<string> //slug.current as payload
     ) {
-      const productSlug = action.payload;
+      const Productslug = action.payload;
       const existingItem = state.items.find(
-        (item) => item.slug.current === productSlug
+        (item) => item.slug.current === Productslug
       );
 
       state.totalQuantity--;
@@ -83,7 +83,7 @@ const cartSlice = createSlice({
 
       if (existingItem?.quantity === 1) {
         state.items = state.items.filter(
-          (item) => item.slug.current !== productSlug
+          (item) => item.slug.current !== Productslug
         );
       } else {
         existingItem!.quantity--;
