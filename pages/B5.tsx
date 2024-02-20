@@ -42,3 +42,5 @@ export const B5 = () => {
         </div>
     )
 }
+
+export default B5
