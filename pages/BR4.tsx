@@ -6,7 +6,7 @@ const BR4 = () => {
             <h1 className='flex justify-center text-5xl md:text-6xl p-4 md:p-0 mt-4 md:mt-4'>Old Rums</h1>
             <div className='w-full lg:px-36 lg:py-24 flex  flex-col lg:flex-row'>
                 <div className='w-full lg:w-1/2'><img className='h-96' src="/Categories/Bars/image4"></img></div>
-                <div className='w-full lg:w-1/2 justify-center text-center items-center flex'><p className='text-xl mt-10 sm:mt-0 p-4 sm:p-0 sm:text-3xl'>pub (short for public house) is a drinking establishment licensed to serve alcoholic drinks for consumption on the premises. The term first appeared in the late 17th century, to differentiate private houses from those open to the public as alehouses, taverns and inns.[1] Today, there is no strict definition . </p></div>
+                <div className='w-full lg:w-1/2 justify-center text-center items-center flex'><p className='text-xl mt-10 sm:mt-0 p-4 sm:p-0 sm:text-3xl'>pub (short for public house) is a drinking establishment licensed to serve alcoholic drinks for consumption on the premises. The term first appeared in the late 17th century, to differentiate private houses from those open to the public as alehouses, taverns and inns. Today, there is no strict definition . </p></div>
             </div>
             <div className='px-16'>
                 <h1 className='flex justify-center p-16 md:ml-10 text-5xl md:text-6xl '>Aminities</h1>
