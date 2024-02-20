@@ -1,31 +1,38 @@
 import React from 'react'
+import Link from 'next/link'
 const data = [
   {
+    link: "H1",
     name: "The Metropolitan Manor",
     image: "/Categories/House/Image1",
     about: "An apartment is a private residence in a building or house that's divided into several separate dwellings. An apartment can be one small room or several."
   },
   {
+    link: "H2",
     name: "The Loft Life",
     image: "/Categories/House/image2",
     about: "An apartment is a private residence in a building or house that's divided into several separate dwellings. An apartment can be one small room or several."
   },
   {
+    link: "H3",
     name: "The Contemporary Chambers",
     image: "/Categories/House/image3",
     about: "An apartment is a private residence in a building or house that's divided into several separate dwellings. An apartment can be one small room or several."
   },
   {
+    link: "H4",
     name: "The Urban Haven",
     image: "/Categories/House/image4",
     about: "An apartment is a private residence in a building or house that's divided into several separate dwellings. An apartment can be one small room or several."
   },
   {
+    link: "H5",
     name: "The Urban Haven",
     image: "/Categories/House/image5",
     about: "An apartment is a private residence in a building or house that's divided into several separate dwellings. An apartment can be one small room or several."
   },
   {
+    link: "H6",
     name: "The Metro Haven",
     image: "/Categories/House/image6",
     about: "An apartment is a private residence in a building or house that's divided into several separate dwellings. An apartment can be one small room or several."
@@ -47,12 +54,9 @@ const home = () => {
                   <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{item.name}</h5>
                 </a>
                 <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">{item.about}</p>
-                <a href="#" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                  Read more
-                  <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
-                  </svg>
-                </a>
+                <Link href={`/${item.link}`} className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-blue-700 bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                  <h1 className='text-blue-700 hover:cursor-pointer'>Read More</h1>
+                </Link>
               </div>
             </div>
           </div>
