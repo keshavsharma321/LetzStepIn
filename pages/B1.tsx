@@ -9,7 +9,7 @@ const B1 = () => {
                 <div className='w-full  lg:w-1/2 justify-center text-center items-center flex'><p className='text-xl mt-10 sm:mt-0 p-4 sm:p-0 sm:text-3xl md:ml-10'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industries standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.  </p></div>
             </div>
             <div className='px-16'>
-                <h1 className='flex justify-center p-16 md:ml-10 text-5xl md:text-6xl '>Aminities</h1>
+                <h1 className='flex justify-center p-16 md:ml-10 text-5xl md:text-6xl md:-mt-10 '>Aminities</h1>
                 <div className='flex flex-col py-8  sm:flex-row  border-2 rounded-xl border-gray'>
                     <div className='px-10'>
                         <div><img src="https://cdn-icons-png.flaticon.com/128/8044/8044769.png"></img></div>
@@ -109,7 +109,7 @@ const B1 = () => {
                 </div>
                 <h1 className='flex justify-center  text-5xl md:text-6xl my-20 '><i>Making your special moments unforgettable.</i></h1>
             </div>
-            <div className='m-16 flex  justify-between'>
+            <div className='m-16 flex  justify-between flex-col md:flex-row'>
                 <div className="relative flex bg-clip-border rounded-xl bg-white text-gray-700 shadow-md w-full max-w-[48rem] flex-row">
                     <div
                         className="relative w-2/5 m-0 overflow-hidden text-gray-700 bg-white rounded-r-none bg-clip-border rounded-xl shrink-0">
@@ -140,7 +140,7 @@ const B1 = () => {
                             </svg></button></a>
                     </div>
                 </div>
-                <div className="relative flex bg-clip-border rounded-xl bg-white text-gray-700 shadow-md w-full max-w-[48rem] flex-row">
+                <div className="relative flex bg-clip-border ml-10 rounded-xl bg-white text-gray-700 shadow-md w-full max-w-[48rem]  flex-row">
                     <div
                         className="relative w-2/5 m-0 overflow-hidden text-gray-700 bg-white rounded-r-none bg-clip-border rounded-xl shrink-0">
                         <img
