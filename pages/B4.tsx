@@ -12,23 +12,23 @@ const B4 = () => {
                 <h1 className='flex justify-center p-16 md:ml-10 text-5xl md:text-6xl '>Aminities</h1>
                 <div className='flex flex-col py-8  sm:flex-row  border-2 rounded-xl border-gray'>
                     <div className='px-10'>
-                        <div><img src="https://cdn-icons-png.flaticon.com/128/10365/10365182.png"></img></div>
+                        <div><img src="https://cdn-icons-png.flaticon.com/128/8044/8044769.png"></img></div>
                         <div className='flex justify-center text-2xl mt-4'>GreatDeals</div>
                     </div>
                     <div className='px-16'>
-                        <div><img src="https://cdn-icons-png.flaticon.com/128/10365/10365182.png"></img></div>
+                        <div><img src="https://cdn-icons-png.flaticon.com/128/8044/8044769.png"></img></div>
                         <div className='flex justify-center text-2xl mt-4'>GreatDeals</div>
                     </div>
                     <div className='px-16'>
-                        <div><img src="https://cdn-icons-png.flaticon.com/128/10365/10365182.png"></img></div>
+                        <div><img src="https://cdn-icons-png.flaticon.com/128/8044/8044769.png"></img></div>
                         <div className='flex justify-center text-2xl mt-4'>GreatDeals</div>
                     </div>
                     <div className='px-16'>
-                        <div><img src="https://cdn-icons-png.flaticon.com/128/10365/10365182.png"></img></div>
+                        <div><img src="https://cdn-icons-png.flaticon.com/128/8044/8044769.png"></img></div>
                         <div className='flex justify-center text-2xl mt-4'>GreatDeals</div>
                     </div>
                     <div className='px-16'>
-                        <div><img src="https://cdn-icons-png.flaticon.com/128/10365/10365182.png"></img></div>
+                        <div><img src="https://cdn-icons-png.flaticon.com/128/8044/8044769.png"></img></div>
                         <div className='flex justify-center text-2xl mt-4'>GreatDeals</div>
                     </div>
                 </div>
