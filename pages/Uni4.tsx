@@ -5,7 +5,7 @@ const Uni4 = () => {
         <div>
             <h1 className='flex justify-center text-5xl md:text-6xl p-4 md:p-0 mt-4 md:mt-4 font-serif'><i>JNU University</i> </h1>
             <div className='w-full lg:px-20 lg:py-16 flex  flex-col lg:flex-row'>
-                <div className='w-full m-4 lg:w-1/2'><iframe src="https://www.google.com/maps/embed?pb=!4v1708520057497!6m8!1m7!1sCAoSLEFGMVFpcE52aTFFV3JCSFZWU2FUbzE3VURYRnpuR28teWpydUlXZjRZTk5t!2m2!1d19.114588000254!2d72.826329080381!3f95.0441297575727!4f-10.052418875947481!5f0.4000000000000002" width="600" height="450" style={{ border: 0 }} loading="lazy"></iframe> </div>
+                <div className='w-full m-4 lg:w-1/2'><iframe src="https://www.google.com/maps/embed?pb=!4v1708512434327!6m8!1m7!1sCAoSLEFGMVFpcE9EOUo0Qk1fcHdWbTdzdUdrOGFsNjdMYkVqVmQxZGtwMVNsaXhn!2m2!1d18.51053394956658!2d73.7817837945272!3f250.13315!4f0!5f0.7820865974627469" width="600" height="450" style={{ border: 0 }} loading="lazy"></iframe> </div>
                 <div className='w-full  lg:w-1/2 justify-center text-center items-center flex'><p className='text-xl mt-10 sm:mt-0 p-4 sm:p-0 sm:text-3xl md:ml-10'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industries standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.  </p></div>
             </div>
             <div className='px-16'>

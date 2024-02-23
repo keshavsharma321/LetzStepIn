@@ -5,7 +5,7 @@ const BR6 = () => {
         <div>
             <h1 className='flex justify-center text-5xl md:text-6xl p-4 md:p-0 mt-4 md:mt-4 font-serif'><i>Wines ND Chilles</i> </h1>
             <div className='w-full lg:px-20 lg:py-16 flex  flex-col lg:flex-row'>
-                <div className='w-full m-4 lg:w-1/2'><iframe src="https://www.google.com/maps/embed?pb=!4v1708513164981!6m8!1m7!1sCAoSK0FGMVFpcE9rMFVneVl5T2l1SHhTaS1Wbkw4TDVTZ2Jfdk5aVlhoYUR0UGs.!2m2!1d18.6228354!2d73.7583772!3f0!4f0!5f0.7820865974627469" width="600" height="450" style={{ border: 0 }} loading="lazy"></iframe> </div>
+                <div className='w-full m-4 lg:w-1/2'><iframe src="https://www.google.com/maps/embed?pb=!4v1708512692735!6m8!1m7!1sCAoSLEFGMVFpcE1yN1RFVVVtWnAzUVRqTWhwc2FZZFdhYzQtUTVSQzV5X09IZkZG!2m2!1d18.56308455246443!2d73.91774770852453!3f29.519587!4f0!5f0.7820865974627469" width="600" height="450" style={{ border: 0 }} loading="lazy"></iframe> </div>
                 <div className='w-full  lg:w-1/2 justify-center text-center items-center flex'><p className='text-xl mt-10 sm:mt-0 p-4 sm:p-0 sm:text-3xl md:ml-10'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industries standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.  </p></div>
             </div>
             <div className='px-16'>
