@@ -11,23 +11,23 @@ const Uni1 = () => {
             <div className='px-16'>
                 <h1 className='flex justify-center p-16 md:ml-10 text-5xl md:text-6xl md:-mt-10 '>Aminities</h1>
                 <div className='flex flex-col py-8  sm:flex-row  border-2 rounded-xl border-gray'>
-                    <div className='px-10'>
+                    <div className='px-12'>
                         <div><img src="https://cdn-icons-png.flaticon.com/128/1940/1940611.png"></img></div>
                         <div className='flex justify-center text-2xl mt-8'>GreatKnowledge</div>
                     </div>
-                    <div className='px-16'>
+                    <div className='px-12'>
                         <div><img src="https://cdn-icons-png.flaticon.com/128/10428/10428527.png"></img></div>
                         <div className='flex justify-center text-2xl mt-6'>BestCaricullum</div>
                     </div>
-                    <div className='px-16'>
+                    <div className='px-12'>
                         <div><img src="https://cdn-icons-png.flaticon.com/128/2846/2846864.png"></img></div>
                         <div className='flex justify-center text-2xl mt-8'>ExtraCirucular</div>
                     </div>
-                    <div className='px-16'>
+                    <div className='px-12'>
                         <div><img src="https://cdn-icons-png.flaticon.com/128/1436/1436716.png"></img></div>
                         <div className='flex justify-center text-2xl mt-6'>BestFaculty</div>
                     </div>
-                    <div className='px-16'>
+                    <div className='px-12'>
                         <div><img src="https://cdn-icons-png.flaticon.com/128/12326/12326568.png"></img></div>
                         <div className='flex justify-center text-2xl mt-8'>AlumniNetwork</div>
                     </div>

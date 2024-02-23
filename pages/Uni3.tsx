@@ -15,19 +15,19 @@ const Uni3 = () => {
                         <div><img src="https://cdn-icons-png.flaticon.com/128/1940/1940611.png"></img></div>
                         <div className='flex justify-center text-2xl mt-8'>GreatKnowledge</div>
                     </div>
-                    <div className='px-16'>
+                    <div className='px-10'>
                         <div><img src="https://cdn-icons-png.flaticon.com/128/10428/10428527.png"></img></div>
                         <div className='flex justify-center text-2xl mt-6'>BestCaricullum</div>
                     </div>
-                    <div className='px-16'>
+                    <div className='px-10'>
                         <div><img src="https://cdn-icons-png.flaticon.com/128/2846/2846864.png"></img></div>
                         <div className='flex justify-center text-2xl mt-8'>ExtraCirucular</div>
                     </div>
-                    <div className='px-16'>
+                    <div className='px-10'>
                         <div><img src="https://cdn-icons-png.flaticon.com/128/1436/1436716.png"></img></div>
                         <div className='flex justify-center text-2xl mt-6'>BestFaculty</div>
                     </div>
-                    <div className='px-16'>
+                    <div className='px-10'>
                         <div><img src="https://cdn-icons-png.flaticon.com/128/13378/13378214.png"></img></div>
                         <div className='flex justify-center text-2xl mt-8'>Parking</div>
                     </div>
