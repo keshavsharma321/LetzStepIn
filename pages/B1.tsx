@@ -17,7 +17,7 @@ const B1 = () => {
                     </div>
                     <div className='px-16'>
                         <div><img src="https://cdn-icons-png.flaticon.com/128/7875/7875506.png"></img></div>
-                        <div className='flex justify-center text-2xl mt-8'>BestCaterers</div>
+                        <div className='flex justify-center text-2xl mt-6'>BestCaterers</div>
                     </div>
                     <div className='px-16'>
                         <div><img src="https://cdn-icons-png.flaticon.com/128/2846/2846864.png"></img></div>
@@ -25,7 +25,7 @@ const B1 = () => {
                     </div>
                     <div className='px-16'>
                         <div><img src="https://cdn-icons-png.flaticon.com/128/10364/10364879.png"></img></div>
-                        <div className='flex justify-center text-2xl mt-8'>Best Decoration</div>
+                        <div className='flex justify-center text-2xl mt-6'>Decoration</div>
                     </div>
                     <div className='px-16'>
                         <div><img src="https://cdn-icons-png.flaticon.com/128/13378/13378214.png"></img></div>
