@@ -37,7 +37,7 @@ const B1 = () => {
                         <div className="relative max-w-9xl mx-auto">
                             <div className="max-w-lg mx-auto rounded-lg shadow-lg overflow-hidden lg:max-w-none lg:flex">
                                 <div className="flex-1 px-6 py-8 lg:p-12 bg-gray-600">
-                                    <h3 className="text-2xl font-extrabold text-white sm:text-3xl">Decoration that's Divine & Distinct.</h3>
+                                    <h3 className="text-2xl font-extrabold text-white sm:text-3xl">Decoration thats Divine & Distinct.</h3>
                                     <p className="mt-6 text-base text-gray-50 sm:text-lg">Take your momets and fests to the next level!
                                     </p>
                                     <div className="mt-8">
