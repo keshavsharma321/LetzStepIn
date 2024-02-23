@@ -4,7 +4,7 @@ const B1 = () => {
     return (
         <div>
             <h1 className='flex justify-center text-5xl md:text-6xl p-4 md:p-0 mt-4 md:mt-4 font-serif'><i>Rangoli Garden</i> </h1>
-            <div className='w-full lg:px-20 lg:py-24 flex  flex-col lg:flex-row'>
+            <div className='w-full lg:px-20 lg:py-16 flex  flex-col lg:flex-row'>
                 <div className='w-full m-4 lg:w-1/2'><iframe src="https://www.google.com/maps/embed?pb=!4v1708511941760!6m8!1m7!1sCAoSK0FGMVFpcE8teXp2UTVxNGJ6enRReUhqMUo3dk90dmhNUDNJQkplTWctNkU.!2m2!1d18.6229501!2d73.7584388!3f0!4f0!5f0.7820865974627469" width="600" height="450" style={{ border: 0 }} loading="lazy"></iframe> </div>
                 <div className='w-full  lg:w-1/2 justify-center text-center items-center flex'><p className='text-xl mt-10 sm:mt-0 p-4 sm:p-0 sm:text-3xl md:ml-10'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industries standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.  </p></div>
             </div>
@@ -16,20 +16,20 @@ const B1 = () => {
                         <div className='flex justify-center text-2xl mt-4'>GreatDeals</div>
                     </div>
                     <div className='px-16'>
-                        <div><img src="https://cdn-icons-png.flaticon.com/128/8044/8044769.png"></img></div>
-                        <div className='flex justify-center text-2xl mt-4'>GreatDeals</div>
+                        <div><img src="https://cdn-icons-png.flaticon.com/128/7875/7875506.png"></img></div>
+                        <div className='flex justify-center text-2xl mt-4'>BestCaterers</div>
                     </div>
                     <div className='px-16'>
-                        <div><img src="https://cdn-icons-png.flaticon.com/128/8044/8044769.png"></img></div>
-                        <div className='flex justify-center text-2xl mt-4'>GreatDeals</div>
+                        <div><img src="https://cdn-icons-png.flaticon.com/128/2846/2846864.png"></img></div>
+                        <div className='flex justify-center text-2xl mt-4'>Pools&Spa</div>
                     </div>
                     <div className='px-16'>
-                        <div><img src="https://cdn-icons-png.flaticon.com/128/8044/8044769.png"></img></div>
-                        <div className='flex justify-center text-2xl mt-4'>GreatDeals</div>
+                        <div><img src="https://cdn-icons-png.flaticon.com/128/10364/10364879.png"></img></div>
+                        <div className='flex justify-center text-2xl mt-4'>Best Decoration</div>
                     </div>
                     <div className='px-16'>
-                        <div><img src="https://cdn-icons-png.flaticon.com/128/8044/8044769.png"></img></div>
-                        <div className='flex justify-center text-2xl mt-4'>GreatDeals</div>
+                        <div><img src="https://cdn-icons-png.flaticon.com/128/13378/13378214.png"></img></div>
+                        <div className='flex justify-center text-2xl mt-4'>Parking</div>
                     </div>
                 </div>
                 <div className='mt-16'>
@@ -126,10 +126,8 @@ const B1 = () => {
                             Mr. Harshad Mehta , CEO Mehta Industries
                         </h4>
                         <p className="block mb-8 font-sans text-base antialiased font-normal leading-relaxed text-gray-700">
-                            Like so many organizations these days, Autodesk is a company in
-                            transition. It was until recently a traditional boxed software company
-                            selling licenses. Yet its own business model disruption is only part of
-                            the story
+                            Fantastic experience wonder ambience staff behaviour is a very good food quality untimat over all excellent
+                            Fantastic experience wonder ambience staff behaviour is a very good food quality untimat over all excellent
                         </p>
                         <a href="#" className="inline-block"><button
                             className="flex items-center gap-2 px-6 py-3 font-sans text-xs font-bold text-center text-gray-900 uppercase align-middle transition-all rounded-lg select-none disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none hover:bg-gray-900/10 active:bg-gray-900/20"
@@ -156,10 +154,8 @@ const B1 = () => {
                             Mr. Harshad Mehta , CEO Mehta Industries
                         </h4>
                         <p className="block mb-8 font-sans text-base antialiased font-normal leading-relaxed text-gray-700">
-                            Like so many organizations these days, Autodesk is a company in
-                            transition. It was until recently a traditional boxed software company
-                            selling licenses. Yet its own business model disruption is only part of
-                            the story
+                            Fantastic experience wonder ambience staff behaviour is a very good food quality untimat over all excellent
+                            Fantastic experience wonder ambience staff behaviour is a very good food quality untimat over all excellent
                         </p>
                         <a href="#" className="inline-block"><button
                             className="flex items-center gap-2 px-6 py-3 font-sans text-xs font-bold text-center text-gray-900 uppercase align-middle transition-all rounded-lg select-none disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none hover:bg-gray-900/10 active:bg-gray-900/20"
