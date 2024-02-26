@@ -74,7 +74,7 @@ const CafesAndRestaurants = () => {
         </div>
         <h1 className='text-6xl ml-16 font-mono justify-start p-10'>What&apos;Inside</h1>
         <div className='flex px-4 w-full justify-center'>
-          <div className='flex justify-evenly w-full flex-col py-8 px-6  sm:flex-row  border-2 rounded-xl border-gray'>
+          <div className='flex justify-evenly w-full flex-col py-8 px-8  sm:flex-row  border-2 rounded-xl border-gray'>
             <div className='  '>
               <div className='flex justify-center'><img src="https://cdn-icons-png.flaticon.com/128/3050/3050431.png"></img></div>
               <div className='flex justify-start text-2xl mt-8'>Meeting Rooms</div>
@@ -105,7 +105,7 @@ const CafesAndRestaurants = () => {
         <div className='px-8 w-full justify-evenly'>
           <div className='flex'>
             <div className='w-2/3 h-80 px-2'><img  style={{height:330 , width:1050}} src="https://plus.unsplash.com/premium_photo-1661931749081-23d69ddb62d1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y293b3JraW5nJTIwc3BhY2UlMjBob3Jpem9udGFsfGVufDB8fDB8fHww"></img></div>
-            <div className='w-1/3 h-80 px-2'><img className='ml-2' style={{height:300}} src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGNvd29ya2luZyUyMHNwYWNlfGVufDB8fDB8fHww"></img></div>
+            <div className='w-1/3 h-80 px-2'><img className='ml-2' style={{height:320}} src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGNvd29ya2luZyUyMHNwYWNlfGVufDB8fDB8fHww"></img></div>
           </div>
           <div className='flex mt-8'>
             <div className='w-1/3 h-80 px-2'><img src="https://images.unsplash.com/photo-1527192491265-7e15c55b1ed2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y293b3JraW5nJTIwc3BhY2V8ZW58MHx8MHx8fDA%3D"></img></div>
