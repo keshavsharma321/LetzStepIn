@@ -138,7 +138,7 @@ const House = () => {
             <div className="flex flex-wrap ">
                 <div className='w-full justify-evenly flex h-1/4 p-10'>
                     <div className='w-1/2'><iframe className='rounded-2xl ml-4' src="https://www.google.com/maps/embed?pb=!4v1708511941760!6m8!1m7!1sCAoSK0FGMVFpcE8teXp2UTVxNGJ6enRReUhqMUo3dk90dmhNUDNJQkplTWctNkU.!2m2!1d18.6229501!2d73.7584388!3f0!4f0!5f0.7820865974627469" width="650" height="550" loading="lazy" ></iframe></div>
-                    <div className='w-1/2'><h1 className='text-8xl justify-center flex p-4 font-serif'><i>Rajwadi Resorts</i></h1>
+                    <div className='w-1/2'><h1 className='text-8xl justify-center flex p-4 font-serif'><i>Rajwadi</i></h1>
                         <p className='text-4xl px-10 py-9  text-center font-serif'>The hall will be designed specifically to allow ambient environment for the wedding ceremonies and to bring satisfaction to the users. This comes after a market analysis by the owner of the project (Munns & Bjeirmi, 1996). This is an initial survey since he realized an increasing need to provide the society.</p></div>
                 </div>
                 <h1 className='text-6xl ml-16 font-mono justify-start p-10'>What&apos;Inside</h1>
@@ -218,7 +218,7 @@ const House = () => {
                         <hr className="flex-grow"></hr>
 
                         <div className='w-full py-6 flex'>
-                            <div className='w-1/3 flex justify-center text-center items-center'><h1 className='text-4xl font-sans'><b>More Than 1500 Guests</b></h1></div>
+                            <div className='w-1/3 flex justify-center text-center items-center'><h1 className='text-4xl font-sans'><b>Above 1500 Guests</b></h1></div>
                             <div className='w-1/3 flex justify-center text-center items-center'><h1 className='text-4xl font-sans'>Starts From ₹ 1800k</h1></div>
                             <div className='w-1/3 flex justify-center text-center items-center'><button type="button" onClick={handleAddToCart} className="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium  rounded-lg text-sm px-5 py-3 text-center me-2 flex "><img src="/images/add-to-basket-5854.png"></img><h1 className='ml-2 text-lg mt-1'>Add To Cart</h1></button></div> {showAlert && (
                                 <CustomAlert
