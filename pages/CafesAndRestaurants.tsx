@@ -74,28 +74,28 @@ const CafesAndRestaurants = () => {
         </div>
         <h1 className='text-6xl ml-16 font-mono justify-start p-10'>What&apos;Inside</h1>
         <div className='flex px-4 w-full justify-center'>
-          <div className='flex flex-col py-8 px-6  sm:flex-row  border-2 rounded-xl border-gray'>
-            <div className='px-9  '>
+          <div className='flex justify-evenly flex-col py-8 px-6  sm:flex-row  border-2 rounded-xl border-gray'>
+            <div className='  '>
               <div className='flex justify-center'><img src="https://cdn-icons-png.flaticon.com/128/3050/3050431.png"></img></div>
               <div className='flex justify-start text-2xl mt-8'>Meeting Rooms</div>
             </div>
-            <div className='px-16'>
+            <div className=''>
               <div><img src="https://cdn-icons-png.flaticon.com/128/10971/10971689.png"></img></div>
               <div className='flex justify-center text-2xl mt-8'>Private Call Room</div>
             </div>
-            <div className='px-16'>
+            <div className=''>
               <div><img src="https://cdn-icons-png.flaticon.com/128/2846/2846864.png"></img></div>
               <div className='flex justify-center text-2xl mt-8'>Pools & Spa</div>
             </div>
-            <div className='px-16'>
+            <div className=''>
               <div><img src="https://cdn-icons-png.flaticon.com/128/3703/3703289.png"></img></div>
               <div className='flex justify-center text-2xl mt-8'>Shared Monitor</div>
             </div>
-            <div className='px-16'>
+            <div className=''>
               <div><img src="https://cdn-icons-png.flaticon.com/128/13378/13378214.png"></img></div>
               <div className='flex justify-center text-2xl mt-8'>Parking</div>
             </div>
-            <div className='px-9'>
+            <div className=''>
               <div><img src="https://cdn-icons-png.flaticon.com/128/3393/3393554.png"></img></div>
               <div className='flex justify-center text-2xl mt-8'>Ultra fast Wifi</div>
             </div>
