@@ -120,7 +120,7 @@ const data = [
     },
 ];
 
-const house = () => {
+const House = () => {
     const [showAlert, setShowAlert] = useState(false);
 
     const handleAddToCart = () => {
@@ -425,4 +425,4 @@ const house = () => {
     );
 };
 
-export default house;
+export default House;
