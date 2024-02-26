@@ -73,7 +73,7 @@ const CafesAndRestaurants = () => {
             <p className='text-4xl px-10 py-9  text-center font-serif'>Progressor is an arrangement in which workers for different companies share an office space. It allows cost savings and convenience through the use of common infrastructures, such as equipment, utilities and receptionist and custodial services, and in some cases refreshments and parcel acceptance services.</p></div>
         </div>
         <h1 className='text-6xl ml-16 font-mono justify-start p-10'>What&apos;Inside</h1>
-        <div className='flex px-8 w-full justify-center'>
+        <div className='flex px-4 w-full justify-center'>
           <div className='flex flex-col py-8 px-6  sm:flex-row  border-2 rounded-xl border-gray'>
             <div className='px-9  '>
               <div className='flex justify-center'><img src="https://cdn-icons-png.flaticon.com/128/3050/3050431.png"></img></div>
