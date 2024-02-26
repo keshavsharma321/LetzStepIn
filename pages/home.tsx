@@ -134,7 +134,7 @@ const Home = () => {
   return (
     <div>
       {/* <h1 className='flex justify-center font-sans text-5xl mb-4'>Cafe And Reasutrants</h1> */}
-      <h1 className='flex justify-center py-10 font-serif text-6xl mb-4'>Banquettes And Hall Booking</h1>
+      <h1 className='flex justify-center py-10 font-serif text-6xl mb-4'>Hotel And Room Booking</h1>
 
       <div className="flex flex-wrap ">
         <div className='w-full justify-evenly flex h-1/4 p-10'>
