@@ -156,7 +156,7 @@ const Education = () => {
                         </div>
                         <div className=''>
                             <div><img src="https://cdn-icons-png.flaticon.com/128/10971/10971689.png"></img></div>
-                            <div className='flex justify-center text-2xl mt-8'>Best Labs</div>
+                            <div className='flex justify-center text-2xl mt-8'>Tech Support</div>
                         </div>
                         <div className=''>
                             <div><img src="https://cdn-icons-png.flaticon.com/128/2846/2846864.png"></img></div>
