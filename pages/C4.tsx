@@ -167,6 +167,11 @@ const C4 = () => {
                     </div>
                 </div>
             </div>
+
+
+
+
+            
             <div className='flex justify-center'>
                 <div className='w-full'>
                     <section className="bg-blue-50 w-full dark:bg-slate-800" id="contact">
