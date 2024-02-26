@@ -112,21 +112,21 @@ const en: { [key: string]: string } = {
   seeAll: "See All",
   specialSale: "Special Sale",
   seeAllNewProducts: "See All New Products",
-  digitalCategoryTitle: "Cafes And Restaurants",
+  digitalCategoryTitle: "CoWorking And Community",
   digitalCategoryDescription:
-    "We offer the best and delicious Products at the most competitive prices",
-  fashionCategoryTitle: "Real Estates",
+    "We offer the best working environment at the most competitive prices",
+  fashionCategoryTitle: "Spa And Wellness",
   fashionCategoryDescription:
-    "The most popular brands with the most reasonable deals . We dont sell houses we sell Happiness.",
-  homeCategoryTitle: "Home",
+    "The most popular services with the most reasonable deals . We dont sell services we sell Happiness.",
+  homeCategoryTitle: "Hotels",
   homeCategoryDescription:
-    "The most popular brands with the most reasonable deals . We dont sell houses we sell Happiness.",
+    "The most popular brands with the most reasonable deals .",
   houseCategoryTitle: "Banquette Halls And  Booking",
   houseCategoryTitle1: "Banquette Halls",
 
   houseCategoryDescription:
     "A banquet hall, function hall, or reception hall, is a special purpose room, or a building, used for hosting large social and business events. ",
-  toyCategoryTitle: "Pubs And Bars",
+  toyCategoryTitle: "Reasturants And Bars",
   toyCategoryDescription: "A combination of entertainment and creativity",
   stationeryCategoryTitle: "Education And Knowledge",
   stationeryCategoryDescription:
