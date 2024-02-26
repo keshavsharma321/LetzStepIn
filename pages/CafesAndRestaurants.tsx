@@ -102,14 +102,14 @@ const CafesAndRestaurants = () => {
           </div>
         </div>
         <h1 className='text-6xl ml-16  mt-10 font-mono justify-start px-10 py-10'>Look&apos;s Inside</h1>
-        <div className='px-12 w-full justify-evenly'>
+        <div className='px-8 w-full justify-evenly'>
           <div className='flex'>
             <div className=''><img style={{ height: 350, width: 800 }} src="https://plus.unsplash.com/premium_photo-1661931749081-23d69ddb62d1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y293b3JraW5nJTIwc3BhY2UlMjBob3Jpem9udGFsfGVufDB8fDB8fHww"></img></div>
-            <div className=''><img style={{ height: 345, width: 530 }} className='ml-8' src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGNvd29ya2luZyUyMHNwYWNlfGVufDB8fDB8fHww"></img></div>
+            <div className=''><img style={{ height: 345, width: 530 }} className='ml-6' src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGNvd29ya2luZyUyMHNwYWNlfGVufDB8fDB8fHww"></img></div>
           </div>
           <div className='flex mt-8'>
-            <div className='w-1/3 h-96 '><img src="https://images.unsplash.com/photo-1527192491265-7e15c55b1ed2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y293b3JraW5nJTIwc3BhY2V8ZW58MHx8MHx8fDA%3D"></img></div>
-            <div className='w-1/3 h-96 px-8'><img src="https://images.unsplash.com/photo-1553028826-f4804a6dba3b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y293b3JraW5nJTIwc3BhY2V8ZW58MHx8MHx8fDA%3D"></img></div>
+            <div className='w-1/3 h-80'><img src="https://images.unsplash.com/photo-1527192491265-7e15c55b1ed2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y293b3JraW5nJTIwc3BhY2V8ZW58MHx8MHx8fDA%3D"></img></div>
+            <div className='w-1/3 h-80 px-6 '><img src="https://images.unsplash.com/photo-1553028826-f4804a6dba3b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y293b3JraW5nJTIwc3BhY2V8ZW58MHx8MHx8fDA%3D"></img></div>
             <div className='w-1/3 h-80 '><img src="https://images.unsplash.com/photo-1594732832278-abd644401426?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGNvd29ya2luZyUyMHNwYWNlfGVufDB8fDB8fHww"></img></div>
           </div>
         </div>
