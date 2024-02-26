@@ -108,9 +108,9 @@ const CafesAndRestaurants = () => {
             <div className=''><img style={{ height: 345, width: 530 }} className='ml-8' src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGNvd29ya2luZyUyMHNwYWNlfGVufDB8fDB8fHww"></img></div>
           </div>
           <div className='flex mt-8'>
-            <div className='w-1/3 px-2'><img src="https://images.unsplash.com/photo-1527192491265-7e15c55b1ed2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y293b3JraW5nJTIwc3BhY2V8ZW58MHx8MHx8fDA%3D"></img></div>
-            <div className='w-1/3 px-2'><img src="https://images.unsplash.com/photo-1553028826-f4804a6dba3b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y293b3JraW5nJTIwc3BhY2V8ZW58MHx8MHx8fDA%3D"></img></div>
-            <div className='w-1/3 px-2'><img src="https://images.unsplash.com/photo-1594732832278-abd644401426?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGNvd29ya2luZyUyMHNwYWNlfGVufDB8fDB8fHww"></img></div>
+            <div className='w-1/3 h-96 '><img src="https://images.unsplash.com/photo-1527192491265-7e15c55b1ed2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y293b3JraW5nJTIwc3BhY2V8ZW58MHx8MHx8fDA%3D"></img></div>
+            <div className='w-1/3 px-6'><img src="https://images.unsplash.com/photo-1553028826-f4804a6dba3b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y293b3JraW5nJTIwc3BhY2V8ZW58MHx8MHx8fDA%3D"></img></div>
+            <div className='w-1/3 h-80 '><img src="https://images.unsplash.com/photo-1594732832278-abd644401426?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGNvd29ya2luZyUyMHNwYWNlfGVufDB8fDB8fHww"></img></div>
           </div>
         </div>
         <div className='w-full justify-center self-center px-20'>
