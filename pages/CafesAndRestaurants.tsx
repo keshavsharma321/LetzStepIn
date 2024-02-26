@@ -72,7 +72,7 @@ const CafesAndRestaurants = () => {
           <div className='w-1/2'><h1 className='text-8xl justify-center flex p-4 font-serif'><i>Progressor</i></h1>
             <p className='text-4xl px-10 py-9  text-center font-serif'>Progressor is an arrangement in which workers for different companies share an office space. It allows cost savings and convenience through the use of common infrastructures, such as equipment, utilities and receptionist and custodial services, and in some cases refreshments and parcel acceptance services.Coworking spaces have grown in popularity in recent years, with more and more people opting to work in these spaces instead of traditional office spaces.</p></div>
         </div>
-        <h1 className='text-6xl ml-16 font-mono justify-start p-10'>What's Inside</h1>
+        <h1 className='text-6xl ml-16 font-mono justify-start p-10'>What&apos;Inside</h1>
         <div className='flex w-full justify-center'>
           <div className='flex flex-col py-8  sm:flex-row  border-2 rounded-xl border-gray'>
             <div className='px-9  '>
@@ -101,7 +101,7 @@ const CafesAndRestaurants = () => {
             </div>
           </div>
         </div>
-        <h1 className='text-6xl ml-16  mt-10 font-mono justify-start px-10 py-10'>Look's Inside</h1>
+        <h1 className='text-6xl ml-16  mt-10 font-mono justify-start px-10 py-10'>Look&apos;s Inside</h1>
         <div className='px-16 w-full justify-evenly'>
           <div className='flex'>
             <div className=''><img style={{ height: 370, width: 900 }} src="https://plus.unsplash.com/premium_photo-1661931749081-23d69ddb62d1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y293b3JraW5nJTIwc3BhY2UlMjBob3Jpem9udGFsfGVufDB8fDB8fHww"></img></div>
