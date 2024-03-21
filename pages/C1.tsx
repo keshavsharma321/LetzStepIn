@@ -164,13 +164,13 @@ const C1 = () => {
                     style={{ height: 840 }}
                     className="w-2/3  mr-16  overflow-y-scroll"
                 >
-                    <h6 className="text-3xl">Offerings And Pricing</h6>
+                    <h6 className="text-3xl text-black">Offerings And Pricing</h6>
 
                     <div className="w-full mr-10 ">
                         <br></br>
                         <div className=" flex w-full border-2 p-4 rounded-xl ">
                             <div className="w-2/3 h-44">
-                                <h6 className="text2xl py-2 text-gray">PRIVATE OFFICES</h6>
+                                <h6 className="text2xl py-2 text-black text-gray">PRIVATE OFFICES</h6>
                                 <p className="text-gray-700">
                                     Choose a private cabin to work without any disturbance with
                                     world-className amenities.Book private office space for rent with
@@ -201,7 +201,7 @@ const C1 = () => {
                         <br></br>
                         <div className="flex w-full border-2 p-4 rounded-xl ">
                             <div className="w-2/3 h-44">
-                                <h6 className="text2xl py-2 text-gray">Dedicated Desk</h6>
+                                <h6 className="text2xl py-2 text-gray text-black">Dedicated Desk</h6>
                                 <p className="text-gray-700">
                                     Choose a private Desk to work without any disturbance with
                                     world-className amenities.Book private Desk space for rent with
@@ -232,7 +232,7 @@ const C1 = () => {
                         <br></br>
                         <div className="flex w-full border-2 p-4 rounded-xl ">
                             <div className="w-2/3 h-44">
-                                <h6 className="text2xl py-2 text-gray">MEETINGS ROOMS</h6>
+                                <h6 className="text2xl py-2 text-gray text-black">MEETINGS ROOMS</h6>
                                 <p className="text-gray-700">
                                     Choose a Meeting Room to work without any disturbance with
                                     world-className amenities.Book Meeting Rooms space for rent with
@@ -263,7 +263,7 @@ const C1 = () => {
                         <br></br>
                         <div className="flex w-full border-2 p-4 rounded-xl ">
                             <div className="w-2/3 h-44">
-                                <h6 className="text2xl py-2 text-gray">EVENT SPACE</h6>
+                                <h6 className="text2xl py-2 text-gray text-black">EVENT SPACE</h6>
                                 <p className="text-gray-700">
                                     Choose a event space to work without any disturbance with
                                     world-className amenities.Book event space for rent with WeWork.
@@ -295,7 +295,7 @@ const C1 = () => {
                 <div className="w-1/3 h-72">
                     <div>
                         <br></br>
-                        <h6 className="text-4xl">Ameneties</h6>
+                        <h6 className="text-4xl text-black">Ameneties</h6>
                         <br></br>
                         <div className="w-96 h-auto   border-2 rounded-xl">
                             <div className="flex ml-6 mt-4 justify-evenly">
@@ -307,7 +307,7 @@ const C1 = () => {
                                         ></img>
                                     </div>
                                     <div className="flex  mt-1 items-center justify-center">
-                                        <h6 className="mt-2 text-sm">Cleaning Services</h6>
+                                        <h6 className="mt-2 text-black text-sm">Cleaning Services</h6>
                                     </div>
                                 </div>
                                 <div className="w-24">
@@ -318,7 +318,7 @@ const C1 = () => {
                                         ></img>
                                     </div>
                                     <div className="  items-center justify-center">
-                                        <h6 className="mt-2 text-sm">Lift access</h6>
+                                        <h6 className="mt-2 text-black text-sm">Lift access</h6>
                                     </div>
                                 </div>
                                 <div className="w-24">
@@ -329,7 +329,7 @@ const C1 = () => {
                                         ></img>
                                     </div>
                                     <div className="flex  items-center justify-center">
-                                        <h6 className="mt-2 text-sm">CCTV Cameras</h6>
+                                        <h6 className="mt-2 text-black text-sm">CCTV Cameras</h6>
                                     </div>
                                 </div>
                                 <div className="w-24">
@@ -340,7 +340,7 @@ const C1 = () => {
                                         ></img>
                                     </div>
                                     <div className="items-center justify-center">
-                                        <h6 className="mt-2 text-sm"> Common Areas</h6>
+                                        <h6 className="mt-2 text-black text-sm"> Common Areas</h6>
                                     </div>
                                 </div>
                             </div>
@@ -354,7 +354,7 @@ const C1 = () => {
                                         ></img>
                                     </div>
                                     <div className=" items-center justify-center">
-                                        <h6 className="mt-2 text-sm">Fast Network</h6>
+                                        <h6 className="mt-2 text-black text-sm">Fast Network</h6>
                                     </div>
                                 </div>
                                 <div className="w-20">
@@ -365,7 +365,7 @@ const C1 = () => {
                                         ></img>
                                     </div>
                                     <div className="flex  items-center justify-center">
-                                        <h6 className="mt-2 text-sm">Air Condition</h6>
+                                        <h6 className="mt-2 text-black text-sm">Air Condition</h6>
                                     </div>
                                 </div>
                                 <div className="w-24">
@@ -376,7 +376,7 @@ const C1 = () => {
                                         ></img>
                                     </div>
                                     <div className="flex  items-center justify-center">
-                                        <h6 className="mt-2 text-sm">Roasted Coffee</h6>
+                                        <h6 className="mt-2 text-black text-sm">Roasted Coffee</h6>
                                     </div>
                                 </div>
                                 <div className="w-16">
@@ -387,7 +387,7 @@ const C1 = () => {
                                         ></img>
                                     </div>
                                     <div className="flex  items-center justify-center">
-                                        <h6 className="mt-2 text-sm">Onsite Staff</h6>
+                                        <h6 className="mt-2 text-black text-sm">Onsite Staff</h6>
                                     </div>
                                 </div>
                             </div>
@@ -432,7 +432,7 @@ const C1 = () => {
                                 <input
                                     type="email"
                                     placeholder="johndoe@example.com"
-                                    className="block w-full px-5 py-2.5 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
+                                    className="block w-full px-5 py-2.5 mt-2  placeholder-gray-400 bg-white border border-gray-200 rounded-lg dark:text-gray-300  focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
                                 />
                             </div>
 
@@ -441,7 +441,7 @@ const C1 = () => {
                                     Message
                                 </label>
                                 <textarea
-                                    className="block w-full h-16 px-5 py-2.5 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg md:h-24 dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
+                                    className="block w-full h-16 px-5 py-2.5 mt-2  bg-white border border-gray-200 rounded-lg md:h-24  dark:text-gray-300  focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
                                     placeholder="Message"
                                 ></textarea>
                             </div>
@@ -452,7 +452,7 @@ const C1 = () => {
                     </div>
                 </div>
             </div>
-            <h6 className="text-4xl px-16">Inside`s View</h6>
+            <h6 className="text-4xl text-black px-16">Inside`s View</h6>
             <br></br>
             <div
                 data-aos="fade-up"
@@ -485,7 +485,7 @@ const C1 = () => {
                     src="https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGNvd29ya2luZ3xlbnwwfHwwfHx8MA%3D%3D"
                 ></img>
             </div>
-            <h6 className="text-4xl mt-10 mb-6 px-16">Location</h6>
+            <h6 className="text-4xl mt-10 mb-6 text-black px-16">Location</h6>
             <div data-aos="zoom-in" className="w-full  px-16 h-80">
                 <iframe
                     className="w-full h-80"
@@ -494,7 +494,7 @@ const C1 = () => {
             </div>
             <br></br>
             <br></br>
-            <h6 className="text-4xl px-16">Similar Properties</h6>
+            <h6 className="text-4xl text-black px-16">Similar Properties</h6>
             <br></br>
             <div data-aos="fade-up" className="flex w-full px-16  justify-evenly">
                 <div className="lg:w-1/4 md:w-1/2 m-2 rounded w-full border-2 border-grey-200">
@@ -509,8 +509,8 @@ const C1 = () => {
                         <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1 ml-2">
                             Coworking
                         </h3>
-                        <h2 className=" title-font text-lg font-medium ml-2">We Work</h2>
-                        <p className="mt-1 text-lg ml-2">Starting from ₹8,500/Seat</p>
+                        <h2 className=" text-black title-font text-lg font-medium ml-2">We Work</h2>
+                        <p className="mt-1 text-black text-lg ml-2">Starting from ₹8,500/Seat</p>
                     </div>
                 </div>
                 <div className="lg:w-1/4 md:w-1/2 m-2 rounded w-full border-2 border-grey-200">
@@ -525,10 +525,10 @@ const C1 = () => {
                         <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1 ml-2">
                             Coworking
                         </h3>
-                        <h2 className=" title-font text-lg font-medium ml-2">
+                        <h2 className=" text-black title-font text-lg font-medium ml-2">
                             Spring House
                         </h2>
-                        <p className="mt-1 text-lg ml-2">Starting from ₹6,500/Seat</p>
+                        <p className="mt-1 text-black text-lg ml-2">Starting from ₹6,500/Seat</p>
                     </div>
                 </div>
                 <div className="lg:w-1/4 md:w-1/2 m-2 rounded w-full border-2 border-grey-200">
@@ -544,10 +544,10 @@ const C1 = () => {
                             <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1 ml-2">
                                 Coworking
                             </h3>
-                            <h2 className=" title-font text-lg font-medium ml-2">
+                            <h2 className=" text-black title-font text-lg font-medium ml-2">
                                 Employers Place
                             </h2>
-                            <p className="mt-1 text-lg ml-2">Starting from ₹5,500/Seat</p>
+                            <p className="mt-1 text-black text-lg ml-2">Starting from ₹5,500/Seat</p>
                         </div>
                     </div>
                 </div>
@@ -563,10 +563,10 @@ const C1 = () => {
                         <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1 ml-2">
                             Coworking
                         </h3>
-                        <h2 className="title-font text-lg font-medium ml-2">
+                        <h2 className="title-font text-black text-lg font-medium ml-2">
                             <b>The Officers</b>
                         </h2>
-                        <p className="mt-1 text-lg ml-2">Starting from ₹6,500/Seat</p>
+                        <p className="mt-1 text-lg text-black ml-2">Starting from ₹6,500/Seat</p>
                     </div>
                 </div>
             </div>
