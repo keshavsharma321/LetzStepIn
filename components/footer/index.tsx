@@ -14,11 +14,11 @@ const Footer = () => {
           <SocialPart />
         </div>
       </div>
-      <div className="flex items-center bg-white justify-center flex-wrap border-t-[1px] border-slate-500/30 py-4 text-center text-sm md:text-base">
+      <div className="flex items-center bg-white justify-center flex-wrap border-t-[1px] border-slate-500/30 py-4 text-black text-center text-sm md:text-base">
         {t.copyRight}
         <BsFillSuitHeartFill
           style={{
-            color: "#ee489e",
+            color: "blue",
             margin: "0 0.3rem 0 0.3rem",
             fontSize: "1.3rem",
           }}

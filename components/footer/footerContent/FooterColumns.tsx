@@ -10,14 +10,14 @@ const FooterColumns = () => {
       {footerContent.map((item) => {
         return (
           <div className="mt-4 sm:mt-0" key={item.title}>
-            <h4 className="text-md rtl:border-r-4 ltr:border-l-4 border-palette-primary px-2">
+            <h4 className="text-md rtl:border-r-4 ltr:border-l-4 text-black border-palette-primary px-2">
               {t[item.title]}
             </h4>
             <div className="flex flex-col mt-2">
               {item.subtitles.map((subItem) => {
                 return (
                   <Link href={subItem.href} key={subItem.text}>
-                    <a className="text-sm text-palette-base/70 px-4 py-2 hover:text-palette-base/100">
+                    <a className="text-sm text-black px-4 py-2 hover:text-black">
                       {t[subItem.text]}
                     </a>
                   </Link>
