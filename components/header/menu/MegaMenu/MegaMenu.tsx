@@ -27,10 +27,10 @@ const MegaMenu = () => {
       onMouseOver={showMegaMenuHandler}
       onMouseOut={closeMegaMenuHandler}
     >
-      <div className="flex items-center font-bold cursor-pointer ">
+      {/* <div className="flex items-center font-bold cursor-pointer ">
         <GoHeart style={{ fontSize: "1.5rem" }} />
         <h3 className="ltr:ml-1 rtl:mr-1 text-lg font-serif ml-2">{t.CategoryOfProducts1}</h3>
-      </div>
+      </div> */}
 
       <Transition
         nodeRef={nodeRef}

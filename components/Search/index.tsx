@@ -2,7 +2,7 @@ import React from 'react';
 
 const Search = () => {
     return (
-        <div className="relative w-full max-w-full mb-10 bg-black">
+        <div className="relative w-full max-w-full -mt-20 mb-10 bg-black">
             <img src="/images/search.png" alt="background" className="w-full h-full -ml-20" />
             <div className="absolute inset-0 flex justify-center items-center">
                 <div className="text-center text-white flex-wrap">

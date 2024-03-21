@@ -1,7 +1,16 @@
-import React from "react";
-
-const Blank = () => {
-  return <div>Blank</div>;
+const DisplayImage = ({ props }: any) => {
+  return (
+    <>
+      <img
+        src={props.src}
+        width={props.width}
+        height={props.height}
+        alt={props.alt}
+        className={props.className}
+        style={props.style}
+      />
+    </>
+  );
 };
 
-export default Blank;
+export default DisplayImage;

@@ -17,10 +17,9 @@ const Newest = () => {
   );
 
   return (
-    <div className="my-4 mx-auto lg:-mb-8 lg:mt-16 flex flex-col xl:max-w-[2130px]">
-      <h2 className="my-4 mx-auto mt-10 mb-12 md:mb-24 text-3xl font-portuguese md:text-6xl">{t.newest}</h2>
-
-      <div className="flex-col md:flex-row flex h-full">
+    <div className="mt-10">
+      <h2 className="my-4 mx-auto mt-10 mb-12 md:mb-24 text-3xl flex justify-center font-portuguese md:text-6xl">{t.newest}</h2>
+      <div className="flex-col md:flex-row flex -mb-8 h-full">
         <div className=" w-full lg:w-2/3 justify-center flex">
           <p className="text-xl md:text-3xl ml-4 md:ml-8 md:mr-16 ">At LetzStepIn, we prioritize user satisfaction by providing a multitude of benefits, discounts, and rewards with every offline and online purchase. Our commitment to enhancing your brand&apos;s virtual presence is exemplified through our cutting-edge 360° advanced interactive virtual tour, featuring remote access, 3D models, and live video calling capabilities. We will empower your brand&apos;s digital journey, making every interaction a seamless and rewarding experience for both businesses and users alike.
           </p>

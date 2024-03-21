@@ -8,13 +8,12 @@ import Newest from "../components/newest/Newest";
 const Home: NextPage = () => {
 
   return (
-    <div>
+    <div className="bg-white ">
       <Search />
       <div>
         <Category />
         <Benefits />
         <Carousel />
-
         <Newest />
       </div>
     </div>

@@ -16,7 +16,7 @@ const en: { [key: string]: string } = {
   order: "Order",
   orderSummary: "Order Summary",
   cartIsEmpty: "Cart is empty",
-  CategoryOfProducts1: "Virtualize Your World",
+  // CategoryOfProducts1: "Virtualize Your World",
   CategoryOfProducts: "Get What You Love ! ",
   categories: "Categories",
   seeAllProduct: "See All product in this category",
