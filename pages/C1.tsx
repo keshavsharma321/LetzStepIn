@@ -403,7 +403,7 @@ const C1 = () => {
                         <form>
                             <div className="-mx-2 md:items-center md:flex">
                                 <div className="flex-1 px-2">
-                                    <label className="block mb-2 text-sm text-gray-600 dark:text-gray-200">
+                                    <label className="block mb-2 text-sm text-white">
                                         First Name
                                     </label>
                                     <input
@@ -414,7 +414,7 @@ const C1 = () => {
                                 </div>
 
                                 <div className="flex-1 px-2 mt-4 md:mt-0">
-                                    <label className="block mb-2 text-sm text-gray-600 dark:text-gray-200">
+                                    <label className="block mb-2 text-sm text-white">
                                         Last Name
                                     </label>
                                     <input
@@ -426,7 +426,7 @@ const C1 = () => {
                             </div>
 
                             <div className="mt-4">
-                                <label className="block mb-2 text-sm text-gray-600 dark:text-gray-200">
+                                <label className="block mb-2 text-sm text-white">
                                     Email address
                                 </label>
                                 <input
@@ -437,7 +437,7 @@ const C1 = () => {
                             </div>
 
                             <div className="w-full mt-4">
-                                <label className="block mb-2 text-sm text-gray-600 dark:text-gray-200">
+                                <label className="block mb-2 text-sm text-white">
                                     Message
                                 </label>
                                 <textarea

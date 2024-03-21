@@ -2,7 +2,7 @@ import React from 'react'
 
 const Location = () => {
   return (
-    <div>Location</div>
+    <div className="text-black">Location</div>
   )
 }
 

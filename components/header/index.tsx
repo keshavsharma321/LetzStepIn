@@ -26,9 +26,9 @@ const index = () => {
           </div>
           <Settings /> {/* 👈settings: md:hidden */}
           {/* <div className="hidden md:flex md:items-center md:justify-between"> */}
-            
-            {/* <Language /> */}
-            {/* <Theme /> */}
+
+          {/* <Language /> */}
+          {/* <Theme /> */}
           {/* </div> */}
         </div>
         <hr className="md:hidden" />
@@ -37,14 +37,14 @@ const index = () => {
             <Logo />
           </div>
           <div className="flex-grow justify-end flex mt-3 md:mt-0  ">
-            <div className="px-2 md:px-3"><Home /></div>
+            <div className="px-2  md:px-3"><Home /></div>
             <div className="px-2 md:px-3"><About /></div>
             <div className="px-2 md:px-3"><Location /></div>
             <div className="px-2 md:px-3 mr-4"><Categories /></div>
           </div>
           <div className="ltr:ml-2 mt-3 md:mt-0 rtl:mr-2 sm:ltr:ml-4 sm:rtl:mr-4 flex items-center justify-between ">
-            <div className="mr-5"><CartIcon /></div>
-            <div className="mr-4"><UserBox /></div>
+            <div className="mr-5" style={{ color: "black" }}><CartIcon /></div>
+            <div className="mr-4" style={{ color: "black" }}><UserBox /></div>
 
           </div>
         </div>
