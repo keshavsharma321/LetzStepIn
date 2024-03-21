@@ -46,9 +46,6 @@ const SignUp: NextPage = () => {
   }
   return (
     <EnteringBox
-      title="signUp"
-      submitHandler={signUpHandler}
-      errorMessage={errorMessage}
     />
   );
 };

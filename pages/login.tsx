@@ -38,9 +38,7 @@ const Login: NextPage = () => {
   }
   return (
     <EnteringBox
-      title="login"
-      submitHandler={LoginHandler}
-      errorMessage={errorMessage}
+
     />
   );
 };
