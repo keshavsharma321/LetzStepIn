@@ -2,13 +2,19 @@ import React, { useEffect } from "react";
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 
+
 const C1 = () => {
     useEffect(() => {
         Aos.init()
     })
+
     return (
-        <div className="bg-white w-full lg:w-full -mt-10 sm:-mt-20 -mb-12 ">
-            <section className="text-gray-600 w-full lg:w-full body-font overflow-hidden">
+        <div className="bg-white w-full lg:w-full -mt-10 sm:-mt-20 -mb-12  " style={{
+            overflowX: "hidden",
+        }}>
+            <section style={{
+                overflowX: "hidden",
+            }} className="text-gray-600 w-full lg:w-full body-font overflow-hidden">
                 <div className=" w-full lg:w-full container -mt-10 px-5 py-24 mx-auto">
                     <div className="w-full lg:w-full h-auto mx-auto flex flex-col md:flex-row ">
                         <div className="lg:w-1/2 w-full lg:pr-10 lg:py-2 mt-6 lg:mt-0">
@@ -19,65 +25,8 @@ const C1 = () => {
                                 The TimeBox CoWorking
                             </h6>
                             <div className="flex mb-4">
-                                <span className="flex items-center">
-                                    <svg
-                                        fill="currentColor"
-                                        stroke="currentColor"
-                                        strokeLinecap="round"
-                                        strokeLinejoin="round"
-                                        strokeWidth="2"
-                                        className="w-4 h-4 text-indigo-500"
-                                        viewBox="0 0 24 24"
-                                    >
-                                        <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
-                                    </svg>
-                                    <svg
-                                        fill="currentColor"
-                                        stroke="currentColor"
-                                        strokeLinecap="round"
-                                        strokeLinejoin="round"
-                                        strokeWidth="2"
-                                        className="w-4 h-4 text-indigo-500"
-                                        viewBox="0 0 24 24"
-                                    >
-                                        <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
-                                    </svg>
-                                    <svg
-                                        fill="currentColor"
-                                        stroke="currentColor"
-                                        strokeLinecap="round"
-                                        strokeLinejoin="round"
-                                        strokeWidth="2"
-                                        className="w-4 h-4 text-indigo-500"
-                                        viewBox="0 0 24 24"
-                                    >
-                                        <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
-                                    </svg>
-                                    <svg
-                                        fill="currentColor"
-                                        stroke="currentColor"
-                                        strokeLinecap="round"
-                                        strokeLinejoin="round"
-                                        strokeWidth="2"
-                                        className="w-4 h-4 text-indigo-500"
-                                        viewBox="0 0 24 24"
-                                    >
-                                        <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
-                                    </svg>
-                                    <svg
-                                        fill="none"
-                                        stroke="currentColor"
-                                        strokeLinecap="round"
-                                        strokeLinejoin="round"
-                                        strokeWidth="2"
-                                        className="w-4 h-4 text-indigo-500"
-                                        viewBox="0 0 24 24"
-                                    >
-                                        <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
-                                    </svg>
-                                    <span className="text-gray-600 ml-3">4 Reviews</span>
-                                </span>
-                                <span className="flex ml-3 pl-3 py-2 border-l-2 border-gray-200 space-x-2s">
+
+                                <span className="flex  py-2  border-gray-200 space-x-2s">
                                     <a className="text-gray-500">
                                         <svg
                                             fill="currentColor"
@@ -130,7 +79,7 @@ const C1 = () => {
                                 <span className="title-font font-medium text-2xl text-gray-900">
                                     Rs.8,999/month
                                 </span>
-                                <button className="flex ml-auto text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded">
+                                <button className="flex ml-auto text-white border-0 py-2 px-6 focus:outline-none  rounded" style={{ backgroundColor: "#15ddea" }}>
                                     Buy Now
                                 </button>
                                 <button className="rounded-full w-10 h-10 bg-gray-200 p-0 border-0 inline-flex items-center justify-center text-gray-500 ml-4">
@@ -162,8 +111,14 @@ const C1 = () => {
             </section>
             <div className="w-full sm:w-full flex flex-col sm:flex-row px-4 sm:p-16 -mt-10 sm:-mt-20">
                 <div
-                    style={{ height: 840 }}
-                    className="w-full sm:w-2/3  mr-16  overflow-y-scroll"
+                    style={{
+                        height: 840,
+                        overflowY: 'scroll',
+                        overflowX: "hidden",
+                        scrollbarWidth: 'none', /* For Firefox */
+
+                    }}
+                    className="w-full sm:w-2/3 mr-16"
                 >
                     <h6 className="text-3xl text-black">Offerings And Pricing</h6>
 
@@ -180,7 +135,8 @@ const C1 = () => {
                                 <div className="flex justify-between mt-6">
                                     <button
                                         type="button"
-                                        className="text-white bg-gradient-to-r h-10  from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2"
+                                        style={{ backgroundColor: "#15ddea" }}
+                                        className="text-white bg-gradient-to-r h-10   hover:bg-gradient-to-br focus:ring-4 focus:outline-none  font-medium rounded-md text-sm px-5 py-2.5 text-center me-2 mb-2"
                                     >
                                         Add To Cart
                                     </button>
@@ -211,7 +167,8 @@ const C1 = () => {
                                 <div className="flex justify-between mt-6">
                                     <button
                                         type="button"
-                                        className="text-white bg-gradient-to-r h-10  from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2"
+                                        style={{ backgroundColor: "#15ddea" }}
+                                        className="text-white bg-gradient-to-r h-10   hover:bg-gradient-to-br focus:ring-4 focus:outline-none  font-medium rounded-md text-sm px-5 py-2.5 text-center me-2 mb-2"
                                     >
                                         Add To Cart
                                     </button>
@@ -242,7 +199,8 @@ const C1 = () => {
                                 <div className="flex justify-between mt-6">
                                     <button
                                         type="button"
-                                        className="text-white bg-gradient-to-r h-10  from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2"
+                                        style={{ backgroundColor: "#15ddea" }}
+                                        className="text-white bg-gradient-to-r h-10   hover:bg-gradient-to-br focus:ring-4 focus:outline-none  font-medium rounded-md text-sm px-5 py-2.5 text-center me-2 mb-2"
                                     >
                                         Add To Cart
                                     </button>
@@ -273,7 +231,8 @@ const C1 = () => {
                                 <div className="flex justify-between mt-6">
                                     <button
                                         type="button"
-                                        className="text-white bg-gradient-to-r h-10  from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2"
+                                        style={{ backgroundColor: "#15ddea" }}
+                                        className="text-white bg-gradient-to-r h-10   hover:bg-gradient-to-br focus:ring-4 focus:outline-none  font-medium rounded-md text-sm px-5 py-2.5 text-center me-2 mb-2"
                                     >
                                         Add To Cart
                                     </button>
@@ -409,7 +368,7 @@ const C1 = () => {
                                     </label>
                                     <input
                                         type="text"
-                                        placeholder="John "
+                                        placeholder="First Name "
                                         className="block w-full px-5 py-2.5 mt-2 placeholder-gray-400 bg-white border border-gray-200 rounded-lg dark:text-gray-300 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
                                     />
                                 </div>
@@ -420,7 +379,7 @@ const C1 = () => {
                                     </label>
                                     <input
                                         type="text"
-                                        placeholder="Doe"
+                                        placeholder="Last Name"
                                         className="block w-full px-5 py-2.5 mt-2   bg-white border border-gray-200 rounded-lg   dark:text-gray-300  focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
                                     />
                                 </div>
@@ -432,7 +391,7 @@ const C1 = () => {
                                 </label>
                                 <input
                                     type="email"
-                                    placeholder="johndoe@example.com"
+                                    placeholder="Name@example.com"
                                     className="block w-full px-5 py-2.5 mt-2  placeholder-gray-400 bg-white border border-gray-200 rounded-lg dark:text-gray-300  focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
                                 />
                             </div>
@@ -446,7 +405,8 @@ const C1 = () => {
                                     placeholder="Message"
                                 ></textarea>
                             </div>
-                            <button className="w-full px-6 py-3 mt-4 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-500 rounded-lg hover:bg-blue-400 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50">
+                            <button style={{ backgroundColor: "#2cbcdf" }}
+                                className="w-full px-6 py-3 mt-4 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform  rounded-lg focus:outline-none focus:ring  focus:ring-opacity-50">
                                 Add To Cart
                             </button>
                         </form>
