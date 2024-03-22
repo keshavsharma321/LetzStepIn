@@ -66,7 +66,7 @@ const Uni1 = () => {
                                 </span>
                             </div>
                             <p className="leading-relaxed">
-                                We provide a safe, nuturing and developmentally appropriate learning environment to the children. We strive to appreciate and respect each child's uniqueness in learning styles and his/her pace in intellectual and physical growth.
+                                We provide a safe, nuturing and developmentally appropriate learning environment to the children. We strive to appreciate and respect each child uniqueness in learning styles and his/her pace in intellectual and physical growth.
                             </p>
                             <br></br>
                             <br></br>
@@ -150,7 +150,7 @@ const Uni1 = () => {
                         <br></br>
                         <div className=" flex flex-col-reverse sm:flex-row w-full border-2 p-4 rounded-xl ">
                             <div className="w-full sm:w-2/3 h-auto sm:h-44">
-                                <h6 className="text2xl py-2 text-gray text-black">TODDLERS (2's years old)</h6>
+                                <h6 className="text2xl py-2 text-gray text-black">TODDLERS (2 years old)</h6>
                                 <p className="text-gray-700 sm:mr-3">
                                     Here, your toddler will be gently guided by our caring educators who understand the unique needs and boundless energy of these precious early years.
                                 </p>
@@ -180,9 +180,9 @@ const Uni1 = () => {
                         <br></br>
                         <div className=" flex flex-col-reverse sm:flex-row w-full border-2 p-4 rounded-xl ">
                             <div className="w-full sm:w-2/3 h-auto sm:h-44">
-                                <h6 className="text2xl py-2 text-gray text-black">PRESCHOLLARS (3's years old)</h6>
+                                <h6 className="text2xl py-2 text-gray text-black">PRESCHOLLARS (3 years old)</h6>
                                 <p className="text-gray-700 sm:mr-3">
-                                    Our little "Pre-Schoolars" embark on a thrilling journey of discovery, guided by compassionate educators who ignite their passion for learning.
+                                    Our little Pre-Schoolars embark on a thrilling journey of discovery, guided by compassionate educators who ignite their passion for learning.
                                 </p>
                                 <div className="flex justify-between mt-6">
                                     <button
