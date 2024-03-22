@@ -36,7 +36,7 @@ const index = () => {
           <div className="hidden md:block ">
             <Logo />
           </div>
-          <div className="flex-grow justify-end flex mt-3 md:mt-0  ">
+          <div className="flex-grow w-60 sm:w-auto justify-end flex mt-3 md:mt-0  ">
             <div className="px-2  md:px-3"><Home /></div>
             <div className="px-2 md:px-3"><About /></div>
             <div className="px-2 md:px-3"><Location /></div>
