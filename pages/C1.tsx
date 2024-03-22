@@ -98,7 +98,7 @@ const C1 = () => {
                         </div>
                         <div>
                             <iframe
-                                className="rounded-md mt-8 sm:mt-0 -ml-1 sm:ml-4 h-72 sm:h-96 w-96 sm:w-[650px]"
+                                className="rounded-md mt-8 sm:mt-0 -ml-1 sm:ml-4 h-72 sm:h-96  w-[360px] sm:w-[650px]"
                                 src="https://www.google.com/maps/embed?pb=!4v1708512434327!6m8!1m7!1sCAoSLEFGMVFpcE9EOUo0Qk1fcHdWbTdzdUdrOGFsNjdMYkVqVmQxZGtwMVNsaXhn!2m2!1d18.51053394956658!2d73.7817837945272!3f250.13315!4f0!5f0.7820865974627469"
                                 width="650"
                                 height="500"
@@ -257,7 +257,7 @@ const C1 = () => {
                         <br></br>
                         <h6 className="text-4xl mt-4 sm:mt-0 text-black">Ameneties</h6>
                         <br></br>
-                        <div className="w-full sm:w-96 h-auto   border-2 rounded-xl">
+                        <div className="w-[360px] sm:w-96 h-auto   border-2 rounded-xl">
                             <div className="flex ml-6 mt-4 justify-evenly">
                                 <div className="w-24 ">
                                     <div>
