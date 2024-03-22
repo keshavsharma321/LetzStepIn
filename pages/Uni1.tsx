@@ -93,7 +93,7 @@ const Uni1 = () => {
                         </div>
                         <div>
                             <iframe
-                                className="rounded-md mt-8 sm:mt-0 -ml-1 sm:ml-4 h-72 sm:h-96 w-96 sm:w-[650px]"
+                                className="rounded-md mt-8 sm:mt-0 mr-2 sm:mr-0 -ml-1 sm:ml-4 h-72 sm:h-96 w-96 sm:w-[650px]"
                                 src="https://LETZSTEPIN-PRIVATE-LIMITED.vr-360-tour.com/e/uwoBeNZMmpw/e?initvars.autorotate.enabled=true&share_button=true" width="650"
                                 height="500"
                                 loading="lazy"
@@ -243,7 +243,7 @@ const Uni1 = () => {
                         <br></br>
                         <h6 className="text-4xl mt-4 sm:mt-0 text-black">Ameneties</h6>
                         <br></br>
-                        <div className="w-96 h-auto   border-2 rounded-xl">
+                        <div className="w-96 h-auto mr-2 sm:mr-0  border-2 rounded-xl">
                             <div className="flex ml-6 mt-4 justify-evenly">
                                 <div className="w-24 ">
                                     <div>
