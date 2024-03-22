@@ -7,10 +7,10 @@ const C1 = () => {
         Aos.init()
     })
     return (
-        <div className="bg-white -mt-20 -mb-12 ">
-            <section className="text-gray-600 body-font overflow-hidden">
-                <div className="container -mt-10 px-5 py-24 mx-auto">
-                    <div className="lg:w-full h-72 mx-auto flex ">
+        <div className="bg-white w-full lg:w-full -mt-10 sm:-mt-20 -mb-12 ">
+            <section className="text-gray-600 w-full lg:w-full body-font overflow-hidden">
+                <div className=" w-full lg:w-full container -mt-10 px-5 py-24 mx-auto">
+                    <div className="w-full lg:w-full h-auto mx-auto flex flex-col md:flex-row ">
                         <div className="lg:w-1/2 w-full lg:pr-10 lg:py-2 mt-6 lg:mt-0">
                             <h2 className="text-sm title-font text-gray-500 tracking-widest">
                                 CO-WORKING
@@ -126,7 +126,7 @@ const C1 = () => {
                             </p>
                             <br></br>
                             <br></br>
-                            <div className="flex">
+                            <div className="flex -mt-6 sm:mt-0">
                                 <span className="title-font font-medium text-2xl text-gray-900">
                                     Rs.8,999/month
                                 </span>
@@ -149,27 +149,28 @@ const C1 = () => {
                         </div>
                         <div>
                             <iframe
-                                className=" rounded-md ml-4"
+                                className="rounded-md mt-8 sm:mt-0 -ml-1 sm:ml-4 h-72 sm:h-96 w-96 sm:w-[650px]"
                                 src="https://www.google.com/maps/embed?pb=!4v1708512434327!6m8!1m7!1sCAoSLEFGMVFpcE9EOUo0Qk1fcHdWbTdzdUdrOGFsNjdMYkVqVmQxZGtwMVNsaXhn!2m2!1d18.51053394956658!2d73.7817837945272!3f250.13315!4f0!5f0.7820865974627469"
                                 width="650"
                                 height="500"
                                 loading="lazy"
                             ></iframe>
                         </div>
+
                     </div>
                 </div>
             </section>
-            <div className="w-full flex p-16">
+            <div className="w-full sm:w-full flex flex-col sm:flex-row px-4 sm:p-16 -mt-10 sm:-mt-20">
                 <div
                     style={{ height: 840 }}
-                    className="w-2/3  mr-16  overflow-y-scroll"
+                    className="w-full sm:w-2/3  mr-16  overflow-y-scroll"
                 >
                     <h6 className="text-3xl text-black">Offerings And Pricing</h6>
 
                     <div className="w-full mr-10 ">
                         <br></br>
-                        <div className=" flex w-full border-2 p-4 rounded-xl ">
-                            <div className="w-2/3 h-44">
+                        <div className=" flex flex-col-reverse sm:flex-row w-full border-2 p-4 rounded-xl ">
+                            <div className="w-full sm:w-2/3 h-auto sm:h-44">
                                 <h6 className="text2xl py-2 text-black text-gray">PRIVATE OFFICES</h6>
                                 <p className="text-gray-700">
                                     Choose a private cabin to work without any disturbance with
@@ -184,12 +185,12 @@ const C1 = () => {
                                         Add To Cart
                                     </button>
 
-                                    <p className="mr-8 -mt-2 text-blue-400">
+                                    <p className="sm:mr-8 -mt-2 text-blue-400">
                                         Starting at <br></br>₹ 10,999 / month
                                     </p>
                                 </div>
                             </div>
-                            <div className="w-1/3  h-40">
+                            <div className="w-full mb-8 sm:mb-0  sm:w-1/3  h-40">
                                 <img
                                     className="h-44 rounded-lg w-96"
                                     src="https://images.unsplash.com/photo-1510074377623-8cf13fb86c08?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cHJpdmF0ZSUyMG9mZmljZXN8ZW58MHx8MHx8fDA%3D"
@@ -199,8 +200,8 @@ const C1 = () => {
                     </div>
                     <div className="w-full mr-10">
                         <br></br>
-                        <div className="flex w-full border-2 p-4 rounded-xl ">
-                            <div className="w-2/3 h-44">
+                        <div className=" flex flex-col-reverse sm:flex-row w-full border-2 p-4 rounded-xl ">
+                            <div className="w-full sm:w-2/3 h-auto sm:h-44">
                                 <h6 className="text2xl py-2 text-gray text-black">Dedicated Desk</h6>
                                 <p className="text-gray-700">
                                     Choose a private Desk to work without any disturbance with
@@ -215,12 +216,12 @@ const C1 = () => {
                                         Add To Cart
                                     </button>
 
-                                    <p className="mr-8 -mt-2 text-blue-400">
+                                    <p className="sm:mr-8 -mt-2 text-blue-400">
                                         Starting at <br></br>₹ 12,999 / month
                                     </p>
                                 </div>
                             </div>
-                            <div className="w-1/3  h-40">
+                            <div className="w-full mb-8 sm:mb-0  sm:w-1/3  h-40">
                                 <img
                                     className="h-44 rounded-lg w-96"
                                     src="https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8ZGVza3xlbnwwfHwwfHx8MA%3D%3D"
@@ -230,8 +231,8 @@ const C1 = () => {
                     </div>
                     <div className="w-full mr-10">
                         <br></br>
-                        <div className="flex w-full border-2 p-4 rounded-xl ">
-                            <div className="w-2/3 h-44">
+                        <div className=" flex flex-col-reverse sm:flex-row w-full border-2 p-4 rounded-xl ">
+                            <div className="w-full sm:w-2/3 h-auto sm:h-44">
                                 <h6 className="text2xl py-2 text-gray text-black">MEETINGS ROOMS</h6>
                                 <p className="text-gray-700">
                                     Choose a Meeting Room to work without any disturbance with
@@ -246,12 +247,12 @@ const C1 = () => {
                                         Add To Cart
                                     </button>
 
-                                    <p className="mr-8 -mt-2 text-blue-400">
+                                    <p className="sm:mr-8 -mt-2 text-blue-400">
                                         Starting at <br></br>₹ 13,999 / month
                                     </p>
                                 </div>
                             </div>
-                            <div className="w-1/3  h-40">
+                            <div className="w-full mb-8 sm:mb-0  sm:w-1/3  h-40">
                                 <img
                                     className="h-44 rounded-lg w-96"
                                     src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bWVldGluZyUyMHJvb21zfGVufDB8fDB8fHww"
@@ -261,8 +262,8 @@ const C1 = () => {
                     </div>
                     <div className="w-full mr-10">
                         <br></br>
-                        <div className="flex w-full border-2 p-4 rounded-xl ">
-                            <div className="w-2/3 h-44">
+                        <div className=" flex flex-col-reverse sm:flex-row w-full border-2 p-4 rounded-xl ">
+                            <div className="w-full sm:w-2/3 h-auto sm:h-44">
                                 <h6 className="text2xl py-2 text-gray text-black">EVENT SPACE</h6>
                                 <p className="text-gray-700">
                                     Choose a event space to work without any disturbance with
@@ -277,12 +278,12 @@ const C1 = () => {
                                         Add To Cart
                                     </button>
 
-                                    <p className="mr-8 -mt-2 text-blue-400">
+                                    <p className="sm:mr-8 -mt-2 text-blue-400">
                                         Starting at <br></br>₹ 10,999 / month
                                     </p>
                                 </div>
                             </div>
-                            <div className="w-1/3  h-40">
+                            <div className="w-full mb-8 sm:mb-0  sm:w-1/3  h-40">
                                 <img
                                     className="h-44 rounded-lg w-96"
                                     src="https://images.unsplash.com/photo-1528605105345-5344ea20e269?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGV2ZW50JTIwc3BhY2VzfGVufDB8fDB8fHww"
@@ -292,10 +293,10 @@ const C1 = () => {
                     </div>
 
                 </div>
-                <div className="w-1/3 h-72">
-                    <div>
+                <div className="sm:w-1/3 h-auto sm:h-72">
+                    <div className="w-96 sm:w-full">
                         <br></br>
-                        <h6 className="text-4xl text-black">Ameneties</h6>
+                        <h6 className="text-4xl mt-4 sm:mt-0 text-black">Ameneties</h6>
                         <br></br>
                         <div className="w-96 h-auto   border-2 rounded-xl">
                             <div className="flex ml-6 mt-4 justify-evenly">
@@ -398,9 +399,9 @@ const C1 = () => {
                     <br></br>
                     <div
                         data-aos="fade-left"
-                        className="p-4  py-6 rounded-lg bg-blue-200 md:p-8"
+                        className="p-4   py-6 rounded-lg bg-blue-200 md:p-8"
                     >
-                        <form>
+                        <form className="w-full">
                             <div className="-mx-2 md:items-center md:flex">
                                 <div className="flex-1 px-2">
                                     <label className="block mb-2 text-sm text-white">
@@ -452,12 +453,12 @@ const C1 = () => {
                     </div>
                 </div>
             </div>
-            <h6 className="text-4xl text-black px-16">Inside`s View</h6>
+            <h6 className="text-4xl text-black mt-12 sm:mt-0 px-4 sm:px-16">Inside`s View</h6>
             <br></br>
             <div
                 data-aos="fade-up"
-                style={{ width: 1250, marginLeft: 60 }}
-                className="flex overflow-x-scroll h-60"
+                // style={{ width: 1250, }}
+                className="flex overflow-x-scroll ml-4 sm:ml-16 h-60 w-96 sm:w-[1250px]"
             >
                 <img
                     data-aos="flip-left"
@@ -485,8 +486,8 @@ const C1 = () => {
                     src="https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGNvd29ya2luZ3xlbnwwfHwwfHx8MA%3D%3D"
                 ></img>
             </div>
-            <h6 className="text-4xl mt-10 mb-6 text-black px-16">Location</h6>
-            <div data-aos="zoom-in" className="w-full  px-16 h-80">
+            <h6 className="text-4xl text-black mt-12 sm:mt-10 px-4 sm:px-16">Location</h6>
+            <div data-aos="zoom-in" className="w-full  p-4 sm:px-16 h-80">
                 <iframe
                     className="w-full h-80"
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3837.6187197296435!2d108.32704779999999!3d15.876624400000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31420e7e7cbe081f%3A0xb9144b8628542b0b!2zMTIyIE5ndXnhu4VuIFRow6FpIEjhu41jLCBQaMaw4budbmcgTWluaCBBbiwgSOG7mWkgQW4sIFF14bqjbmcgTmFtLCBWaWV0bmFt!5e0!3m2!1sen!2sin!4v1710683914254!5m2!1sen!2sin"
@@ -494,9 +495,9 @@ const C1 = () => {
             </div>
             <br></br>
             <br></br>
-            <h6 className="text-4xl text-black px-16">Similar Properties</h6>
+            <h6 className="text-4xl text-black mt-12 sm:mt-0 px-4 sm:px-16">Similar Properties</h6>
             <br></br>
-            <div data-aos="fade-up" className="flex w-full px-16  justify-evenly">
+            <div data-aos="fade-up" className="flex flex-col sm:flex-row w-full px-4 sm:px-16 -ml-2 sm:ml-0  justify-evenly">
                 <div className="lg:w-1/4 md:w-1/2 m-2 rounded w-full border-2 border-grey-200">
                     <a className="block relative h-54 rounded overflow-hidden">
                         <img
