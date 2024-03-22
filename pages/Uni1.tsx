@@ -243,7 +243,7 @@ const Uni1 = () => {
                         <br></br>
                         <h6 className="text-4xl mt-4 sm:mt-0 text-black">Ameneties</h6>
                         <br></br>
-                        <div className="w-96 h-auto   border-2 rounded-xl">
+                        <div className="w-80 sm:w-96 h-auto   border-2 rounded-xl">
                             <div className="flex ml-6 mt-4 justify-evenly">
                                 <div className="w-24 ">
                                     <div>
