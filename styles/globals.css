@@ -168,8 +168,8 @@ a {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #ee384e;
-  border-radius: 100vw;
+  /* background-color: #ee384e;
+  border-radius: 100vw; */
 }
 
 /* input */

@@ -185,7 +185,6 @@ const CafesAndRestaurants = () => {
       </div>
       {view === 'list' ? (
         <div className='flex flex-col lg:flex-row'>
-          {/* <div className='w-4/12 mt-8 ml-16 border-2 border-grey rounded-lg'>hello</div> */}
           <div className="flex flex-wrap -ml-6 justify-center px-10">
             {data.map((item, index) => (
               <div key={index} className="flex justify-evenly px-4 py-8">

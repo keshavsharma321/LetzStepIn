@@ -115,7 +115,7 @@ const C1 = () => {
                         height: 840,
                         overflowY: 'scroll',
                         overflowX: "hidden",
-                        scrollbarWidth: 'none', /* For Firefox */
+                        scrollbarWidth: 'none',
 
                     }}
                     className="w-full sm:w-2/3 mr-16"
@@ -450,8 +450,7 @@ const C1 = () => {
             <div data-aos="zoom-in" className="w-full  p-4 sm:px-16 h-80">
                 <iframe
                     className="w-full h-80"
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3837.6187197296435!2d108.32704779999999!3d15.876624400000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31420e7e7cbe081f%3A0xb9144b8628542b0b!2zMTIyIE5ndXnhu4VuIFRow6FpIEjhu41jLCBQaMaw4budbmcgTWluaCBBbiwgSOG7mWkgQW4sIFF14bqjbmcgTmFtLCBWaWV0bmFt!5e0!3m2!1sen!2sin!4v1710683914254!5m2!1sen!2sin"
-                ></iframe>
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3844.8105225643403!2d73.83071327512394!3d15.494620785104654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbfc18acb725993%3A0xae46f3365619f48c!2sTIMEBOX%20GOA%20-%20Coworking%20Space%20and%20Meeting%20Rooms!5e0!3m2!1sen!2sin!4v1711101841354!5m2!1sen!2sin" ></iframe>
             </div>
             <br></br>
             <br></br>

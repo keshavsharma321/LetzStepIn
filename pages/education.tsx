@@ -126,8 +126,8 @@ const data = [
     },
 ]
 const Education = () => {
-    const [view, setView] = useState('list'); // State to manage view (list or map)
-    const [selectedLocation, setSelectedLocation] = useState(null); // State to manage selected location for map modal
+    const [view, setView] = useState('list');
+    const [selectedLocation, setSelectedLocation] = useState(null);
 
     const toggleView = () => {
         setView(view === 'list' ? 'map' : 'list');
@@ -142,11 +142,16 @@ const Education = () => {
     };
 
     return (
-        <div>
-            {/* <h1 className='text-xl mb-2 px-8'>Home / Coworking / Noida</h1> */}
-            {/* <hr></hr> */}
-            <div className="flex justify-evenly mt-6 mb-8">
-                <div className='w-full'><h1 className=' px-16 font-serif text-4xl'><b>Education And PreSchooling</b></h1></div>
+
+        <div className='bg-white -mt-24 -mb-12'>
+            <br></br>
+            <br></br>
+
+
+            <br></br>
+
+            <div className="flex bg-white  justify-evenly mt-6 mb-8">
+                <div className='w-full'><h1 className=' px-16 font-serif text-4xl'><b>Coworking Space</b></h1></div>
                 <div className='w-full px-16 flex justify-end'>
                     <div className='py-2 flex  justify-center px-2 rounded border-2 border-grey'><select className=''><option className=''>Select Price</option><option className=' '>Less then Rs.10,000</option><option className=' '>10,000 - 20,0000</option><option className=' '>20,000 - 30,000</option><option className=' '>30,000 - 40,000</option></select></div>
                     <button onClick={toggleView} className="ml-6  bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
@@ -168,10 +173,9 @@ const Education = () => {
             </div>
             {view === 'list' ? (
                 <div className='flex flex-col lg:flex-row'>
-                    <div className='w-4/12 mt-8 ml-16 border-2 border-grey rounded-lg'>hello</div>
                     <div className="flex flex-wrap -ml-6 justify-center px-10">
                         {data.map((item, index) => (
-                            <div key={index} className="flex justify-evenly px-6  py-8">
+                            <div key={index} className="flex justify-evenly px-4 py-8">
                                 <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                                     <a href="#">
                                         <img className="rounded-t-lg" src={item.image} alt="" />
