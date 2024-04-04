@@ -262,8 +262,8 @@ const C1 = () => {
                                 <div className="w-24 ">
                                     <div>
                                         <img
-                                            className="h-8 w-8"
-                                            src="https://cdn-icons-png.flaticon.com/128/995/995053.png"
+                                            className="h-12 w-12"
+                                            src="https://cdn-icons-png.flaticon.com/128/12732/12732567.png"
                                         ></img>
                                     </div>
                                     <div className="flex  mt-1 items-center justify-center">
@@ -273,8 +273,8 @@ const C1 = () => {
                                 <div className="w-24">
                                     <div>
                                         <img
-                                            className="h-8 mt-2 w-8"
-                                            src="https://cdn-icons-png.flaticon.com/128/3320/3320987.png"
+                                            className="h-12 mt-2 w-12"
+                                            src="https://cdn-icons-png.flaticon.com/128/3837/3837715.png"
                                         ></img>
                                     </div>
                                     <div className="  items-center justify-center">
@@ -284,8 +284,8 @@ const C1 = () => {
                                 <div className="w-24">
                                     <div>
                                         <img
-                                            className="h-10 w-8"
-                                            src="https://img.icons8.com/?size=80&id=4go6eNWhpV7H&format=png"
+                                            className="h-10 w-10 mt-2 ml-2"
+                                            src="https://cdn-icons-png.flaticon.com/128/13750/13750297.png"
                                         ></img>
                                     </div>
                                     <div className="flex  items-center justify-center">
@@ -295,12 +295,12 @@ const C1 = () => {
                                 <div className="w-24">
                                     <div>
                                         <img
-                                            className="h-8 w-8 "
-                                            src="https://img.icons8.com/?size=80&id=J520kDpPaQs4&format=png"
+                                            className="h-14 w-14  "
+                                            src="https://cdn-icons-png.flaticon.com/128/12727/12727996.png"
                                         ></img>
                                     </div>
                                     <div className="items-center justify-center">
-                                        <h6 className="mt-2 text-black text-sm"> Common Areas</h6>
+                                        <h6 className=" text-black text-sm"> Common Areas</h6>
                                     </div>
                                 </div>
                             </div>
@@ -309,8 +309,8 @@ const C1 = () => {
                                 <div className="w-20 ">
                                     <div>
                                         <img
-                                            className="h-8 w-8"
-                                            src="https://img.icons8.com/?size=80&id=I9AmJztVLY5c&format=png"
+                                            className="h-12 w-12 -ml-2"
+                                            src="https://cdn-icons-png.flaticon.com/128/12818/12818515.png"
                                         ></img>
                                     </div>
                                     <div className=" items-center justify-center">
@@ -320,30 +320,30 @@ const C1 = () => {
                                 <div className="w-20">
                                     <div>
                                         <img
-                                            className="h-8  w-8"
-                                            src="https://img.icons8.com/?size=80&id=7gi93ExbAOYn&format=png"
+                                            className="h-14  w-14"
+                                            src="https://cdn-icons-png.flaticon.com/128/12901/12901164.png"
                                         ></img>
                                     </div>
                                     <div className="flex  items-center justify-center">
-                                        <h6 className="mt-2 text-black text-sm">Air Condition</h6>
+                                        <h6 className=" text-black text-sm">Air Condition</h6>
                                     </div>
                                 </div>
                                 <div className="w-24">
                                     <div>
                                         <img
-                                            className="h-8 w-8"
-                                            src="https://img.icons8.com/?size=80&id=LL5XgunIEH7Y&format=png"
+                                            className="h-12 w-12"
+                                            src="https://cdn-icons-png.flaticon.com/128/12800/12800497.png"
                                         ></img>
                                     </div>
                                     <div className="flex  items-center justify-center">
-                                        <h6 className="mt-2 text-black text-sm">Roasted Coffee</h6>
+                                        <h6 className="mt-2 text-black text-sm">Cafet And Canteen</h6>
                                     </div>
                                 </div>
                                 <div className="w-16">
                                     <div>
                                         <img
-                                            className="h-8 w-8 "
-                                            src="https://img.icons8.com/?size=80&id=92031&format=png"
+                                            className="h-12 w-12 "
+                                            src="https://cdn-icons-png.flaticon.com/128/12900/12900851.png"
                                         ></img>
                                     </div>
                                     <div className="flex  items-center justify-center">
